@@ -1,0 +1,10 @@
+agirlik/cikti/model_*/
+*.safetensors
+__pycache__/
+*.pyc
+makale/*.aux
+makale/*.log
+makale/*.out
+makale/*.bbl
+makale/*.blg
+.DS_Store

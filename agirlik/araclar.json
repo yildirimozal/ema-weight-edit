@@ -1,0 +1,659 @@
+[
+ {
+  "type": "function",
+  "function": {
+   "name": "Bash",
+   "description": "Mac'te bir kabuk komutu çalıştırır ve çıktısını verir. Uygulama açmak için open -a, dosya aramak için find, Mac uygulamalarını yönetmek için osascript kullan. description alanına komutun ne yaptığını Türkçe, kısa ve mastar hâlinde yaz.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "command": {
+      "type": "string",
+      "description": "çalıştırılacak komut"
+     },
+     "description": {
+      "type": "string",
+      "description": "komutun ne yaptığı, Türkçe, mastar hâlinde"
+     }
+    },
+    "required": [
+     "command"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "Read",
+   "description": "Bir metin dosyasını okur. Uzun dosyalarda offset (başlangıç satırı) ve limit (satır sayısı) ver.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "file_path": {
+      "type": "string",
+      "description": "dosyanın tam yolu"
+     },
+     "offset": {
+      "type": "integer"
+     },
+     "limit": {
+      "type": "integer"
+     }
+    },
+    "required": [
+     "file_path"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "Write",
+   "description": "Bir dosyayı verilen içerikle yazar (yoksa oluşturur, varsa üzerine yazar).",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "file_path": {
+      "type": "string"
+     },
+     "content": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "file_path",
+     "content"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "Edit",
+   "description": "Bir dosyada old_string metnini new_string ile değiştirir. old_string dosyada tam olarak ve bir kez geçmeli.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "file_path": {
+      "type": "string"
+     },
+     "old_string": {
+      "type": "string"
+     },
+     "new_string": {
+      "type": "string"
+     },
+     "replace_all": {
+      "type": "boolean"
+     }
+    },
+    "required": [
+     "file_path",
+     "old_string",
+     "new_string"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "Glob",
+   "description": "Ada göre dosya bulur. pattern örnekleri: '*.pdf', '**/hafta*5*'. path verilmezse kullanıcının Masaüstü, Belgeler ve İndirilenler klasörlerinde arar.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "pattern": {
+      "type": "string"
+     },
+     "path": {
+      "type": "string",
+      "description": "aranacak klasör"
+     }
+    },
+    "required": [
+     "pattern"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "Grep",
+   "description": "Dosyaların içinde metin arar (düzenli ifade). path bir dosya ya da klasör olabilir.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "pattern": {
+      "type": "string"
+     },
+     "path": {
+      "type": "string"
+     },
+     "glob": {
+      "type": "string",
+      "description": "yalnızca bu ada uyan dosyalar, örneğin *.txt"
+     }
+    },
+    "required": [
+     "pattern"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "WebFetch",
+   "description": "Bir web sayfasını indirir ve metnini verir.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "url": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "url"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "WebSearch",
+   "description": "Web'de arama yapar, başlık ve kısa özetlerle sonuç listesi verir.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "query": {
+      "type": "string"
+     }
+    },
+    "required": [
+     "query"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "sunum",
+   "description": "Bir PDF ya da HTML sunumunu Ema'nın tam ekran sunum penceresinde gösterir. Projeksiyon bağlıysa oraya açılır, slaytlar anında değişir, izin gerekmez. ac: dosya alanına sunumun tam yolunu ver, dosyayı önce find ile bul. sonraki, onceki, git (slayt alanıyla), ilk, son: açık sunumda slayt değiştirir.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "eylem": {
+      "type": "string",
+      "enum": [
+       "ac",
+       "kapat",
+       "sonraki",
+       "onceki",
+       "git",
+       "ilk",
+       "son"
+      ]
+     },
+     "slayt": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "git için slayt numarası, birden başlar"
+     },
+     "dosya": {
+      "type": "string",
+      "description": "ac için sunumun tam yolu (.pdf ya da .html)"
+     }
+    },
+    "required": [
+     "eylem"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "telefon",
+   "description": "Kullanıcının Android telefonuna, Ema uygulaması orada kapalıyken bile ulaşır. eylem bildir: metin alanındaki kısa mesajı bildirim olarak gönderir. hatirlat: metni zaman alanındaki an (YYYY-AA-GGTSS:DD, İstanbul saati) geldiğinde bildirim olarak gönderir; kullanıcı \"telefonuma hatırlat\" ya da \"bana bildirim gönder\"…",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "eylem": {
+      "type": "string",
+      "enum": [
+       "bildir",
+       "hatirlat",
+       "dosya",
+       "baglanti"
+      ]
+     },
+     "metin": {
+      "type": "string",
+      "description": "Bildirimde görünecek kısa metin (dosya ve bağlantıda isteğe bağlı)"
+     },
+     "zaman": {
+      "type": "string",
+      "description": "hatirlat için an: YYYY-AA-GGTSS:DD"
+     },
+     "dosya": {
+      "type": "string",
+      "description": "dosya için tam yol"
+     },
+     "adres": {
+      "type": "string",
+      "description": "baglanti için http ya da https adresi"
+     }
+    },
+    "required": [
+     "eylem"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "hafiza",
+   "description": "Kalıcı hafızan. Buraya yazdıkların Ema kapanıp açılsa da kalır ve her yeni oturumun başında sana verilir. ekle: kullanıcı \"bunu hatırla\", \"unutma\", \"aklında olsun\" dediğinde ya da uzun bir aramayla sık kullanılacak bir klasörün veya dosyanın yerini bulduğunda kısa, tek cümlelik bir not ekle.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "eylem": {
+      "type": "string",
+      "enum": [
+       "ekle",
+       "listele",
+       "sil"
+      ]
+     },
+     "metin": {
+      "type": "string",
+      "description": "ekle için notun kendisi, sil için notun içinden bir parça"
+     },
+     "numara": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "sil için listedeki not numarası"
+     }
+    },
+    "required": [
+     "eylem"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "slayt",
+   "description": "Projeksiyonda açık (ya da en son açılan) PDF sunumun slaytlarını okur. kapsam bu: açık slayt (ya da slayt alanındaki slayt), yazısıyla birlikte görüntüsü de gelir; şekil, tablo, diyagram ve kod için kullan. aralik: slayt ile son arası.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "kapsam": {
+      "type": "string",
+      "enum": [
+       "bu",
+       "aralik",
+       "anlatilan",
+       "hepsi"
+      ]
+     },
+     "slayt": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "bu için slayt numarası (boşsa açık slayt), aralik için ilk slayt"
+     },
+     "son": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "aralik için son slayt"
+     },
+     "gorsel": {
+      "type": "boolean",
+      "description": "false ise açık slaytın görüntüsü alınmaz"
+     }
+    }
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "pano",
+   "description": "Projeksiyonda sunumun yerine büyük yazılı bir pano açar. sinav: mini sınav, sorular alanıyla; cevaplar gizli açılır. liste: özet ya da önemli noktalar, maddeler alanıyla. cevaplar: açık sınavın doğru şıklarını gösterir. kapat: panoyu kapatır, sunuma kalınan slayttan döner.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "eylem": {
+      "type": "string",
+      "enum": [
+       "sinav",
+       "liste",
+       "cevaplar",
+       "kapat"
+      ]
+     },
+     "baslik": {
+      "type": "string",
+      "description": "Kısa başlık, örneğin konu adı"
+     },
+     "sorular": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 5,
+      "items": {
+       "type": "object",
+       "properties": {
+        "soru": {
+         "type": "string"
+        },
+        "secenekler": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         },
+         "minItems": 2,
+         "maxItems": 5
+        },
+        "dogru": {
+         "type": "string",
+         "enum": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+         ]
+        }
+       },
+       "required": [
+        "soru",
+        "secenekler",
+        "dogru"
+       ]
+      }
+     },
+     "maddeler": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "minItems": 1,
+      "maxItems": 10
+     }
+    },
+    "required": [
+     "eylem"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "quiz",
+   "description": "Öğrencilerin telefondan cevapladığı quiz (Google Forms). olustur: soruları kullanıcının Google hesabında bir quiz formu olarak oluşturur ve formun QR kodunu projeksiyona yansıtır; öğrenciler okutup öğrenci numaralarını yazarak cevaplar. qr: QR'ı yeniden gösterir. durum: kaç cevap geldiğini söyler.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "eylem": {
+      "type": "string",
+      "enum": [
+       "olustur",
+       "qr",
+       "durum",
+       "bitir"
+      ]
+     },
+     "baslik": {
+      "type": "string",
+      "description": "olustur için quizin adı, örneğin ders ve konu"
+     },
+     "sorular": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 30,
+      "items": {
+       "type": "object",
+       "properties": {
+        "soru": {
+         "type": "string"
+        },
+        "secenekler": {
+         "type": "array",
+         "items": {
+          "type": "string"
+         },
+         "minItems": 2,
+         "maxItems": 5
+        },
+        "dogru": {
+         "type": "string",
+         "enum": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+         ]
+        }
+       },
+       "required": [
+        "soru",
+        "secenekler",
+        "dogru"
+       ]
+      }
+     }
+    },
+    "required": [
+     "eylem"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "defter",
+   "description": "Kalıcı ve aranabilir not defterin: derslerin, projelerin ve yaptığın hataların kaydı. Hafızadan farkı: kayıtlar uzun olabilir, her oturumda hepsi gelmez, gerektiğinde ararsın. Bir ders, proje ya da eski bir iş konuşulunca önce ara. yaz: yeni kayıt (tur, baslik, metin).",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "eylem": {
+      "type": "string",
+      "enum": [
+       "yaz",
+       "ekle",
+       "ara",
+       "oku",
+       "listele",
+       "sil"
+      ]
+     },
+     "tur": {
+      "type": "string",
+      "enum": [
+       "ders",
+       "proje",
+       "hata",
+       "genel"
+      ],
+      "description": "yaz için kaydın türü; ara ve listele için süzgeç"
+     },
+     "baslik": {
+      "type": "string",
+      "description": "yaz için kısa başlık (en çok 120 karakter)"
+     },
+     "metin": {
+      "type": "string",
+      "description": "yaz ve ekle için metin (en çok 3000 karakter)"
+     },
+     "numara": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "ekle, oku ve sil için kayıt numarası"
+     },
+     "aranan": {
+      "type": "string",
+      "description": "ara için söz ya da sözler"
+     },
+     "adet": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 50
+     },
+     "ayri": {
+      "type": "boolean",
+      "description": "yaz için: benzer başlıklı kayıt varken bunun gerçekten başka bir konu olduğunu belirtir"
+     }
+    },
+    "required": [
+     "eylem"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "zaman",
+   "description": "Saat ve tarih hesabı. Hatırlatma, takvim ya da süre işlerinde zamanı kafadan hesaplama, bununla bul. simdi: şu anki tarih, gün ve saat. ekle: şu andan (ya da baslangic anından) gun, hafta, saat ve dakika sonrası; geri gitmek için eksi. \"40 dakika sonra\", \"3 gün sonra\" için.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "eylem": {
+      "type": "string",
+      "enum": [
+       "simdi",
+       "ekle",
+       "saat",
+       "fark"
+      ]
+     },
+     "baslangic": {
+      "type": "string",
+      "description": "ekle için başlangıç anı (boşsa şu an): YYYY-AA-GGTSS:DD"
+     },
+     "gun": {
+      "type": [
+       "integer",
+       "string"
+      ],
+      "description": "ekle için gün sayısı; saat için gün: bugün, yarın, öbür gün, cuma, haftaya cuma ya da YYYY-AA-GG"
+     },
+     "hafta": {
+      "type": "integer"
+     },
+     "saat": {
+      "type": [
+       "integer",
+       "string"
+      ],
+      "description": "ekle için saat sayısı; saat için SS:DD"
+     },
+     "dakika": {
+      "type": "integer"
+     },
+     "bas": {
+      "type": "string",
+      "description": "fark için ilk an"
+     },
+     "bit": {
+      "type": "string",
+      "description": "fark için ikinci an (boşsa şu an)"
+     }
+    },
+    "required": [
+     "eylem"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "dogrula",
+   "description": "Yaptığın işi doğrular, hiçbir şeyi değiştirmez. Bir hatırlatma kurduktan, dosya yazdıktan ya da bir şey gönderdikten sonra \"yaptım\" demeden önce bununla kontrol et; tutmuyorsa düzelt ve kullanıcıya söyle. hatirlatma: telefon aracıyla kurulan bekleyen hatırlatmalar ve son gönderilenler (aranan ile süzülür).",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "eylem": {
+      "type": "string",
+      "enum": [
+       "hatirlatma",
+       "animsatici",
+       "dosya",
+       "adres",
+       "telefon_dosyasi"
+      ]
+     },
+     "aranan": {
+      "type": "string",
+      "description": "hatirlatma ve animsatici için metinde geçen söz"
+     },
+     "dosya": {
+      "type": "string",
+      "description": "dosya için tam yol"
+     },
+     "icerik": {
+      "type": "string",
+      "description": "dosya için dosyada geçmesi gereken metin"
+     },
+     "adres": {
+      "type": "string",
+      "description": "adres için http ya da https adresi"
+     }
+    },
+    "required": [
+     "eylem"
+    ]
+   }
+  }
+ },
+ {
+  "type": "function",
+  "function": {
+   "name": "kendini_gelistir",
+   "description": "Kendi kodunu (Ema'nın sunucusu, sayfası, araçları ve uygulaması) geliştirmenin güvenli yolu. Canlı kodu doğrudan düzenleme; değişikliği çalışma kopyasında yap, bu araçla sına ve canlı koda al. durum: kod nerede, son kayıtlar, çalışma kopyasında ne var.",
+   "parameters": {
+    "type": "object",
+    "properties": {
+     "eylem": {
+      "type": "string",
+      "enum": [
+       "durum",
+       "basla",
+       "dogrula",
+       "uygula",
+       "geri_al"
+      ]
+     },
+     "amac": {
+      "type": "string",
+      "description": "basla için: ne değişecek, bir cümle"
+     },
+     "ozet": {
+      "type": "string",
+      "description": "uygula için: değişikliğin bir cümlelik özeti (kayıt mesajı ve duyuru)"
+     },
+     "sifirla": {
+      "type": "boolean",
+      "description": "basla için: çalışma kopyasındaki eski değişiklikleri sil"
+     }
+    },
+    "required": [
+     "eylem"
+    ]
+   }
+  }
+ }
+]
