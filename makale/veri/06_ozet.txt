@@ -1,0 +1,7 @@
+temel                            geliştirme 52/68 (düzelen 0, bozulan 0, gereksiz 1) | sınama 30/40 (düzelen 0, bozulan 0, gereksiz 0) [193 sn]
+V1 silme a=1.5                   geliştirme 59/68 (düzelen 8, bozulan 1, gereksiz 1) | sınama 33/40 (düzelen 3, bozulan 0, gereksiz 0) [211 sn]
+V2 arındırılmış silme a=1.5      geliştirme 53/68 (düzelen 3, bozulan 2, gereksiz 1) | sınama 33/40 (düzelen 3, bozulan 0, gereksiz 0) [227 sn]
+V1 itme b=gap                    geliştirme 68/68 (düzelen 15, bozulan 0, gereksiz 3) | sınama 40/40 (düzelen 9, bozulan 0, gereksiz 3) [230 sn]
+V1 itme b=2gap                   geliştirme 68/68 (düzelen 15, bozulan 0, gereksiz 8) | sınama 40/40 (düzelen 9, bozulan 0, gereksiz 8) [540 sn]
+V1 silme a=1.0 + itme b=gap      geliştirme 68/68 (düzelen 15, bozulan 0, gereksiz 3) | sınama 40/40 (düzelen 9, bozulan 0, gereksiz 4) [223 sn]
+V2 silme a=1.0 + itme b=gap      geliştirme 68/68 (düzelen 15, bozulan 0, gereksiz 1) | sınama 40/40 (düzelen 9, bozulan 0, gereksiz 2) [245 sn]

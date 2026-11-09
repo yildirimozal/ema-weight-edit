@@ -1,0 +1,66 @@
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel oturum kapandı
+  yerel:qwen2.5:14b: model yükleniyor…
+
+  == yerel:qwen2.5:14b ==
+   1. bilgi        ✓   69.8 sn  araçlar: -
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel oturum kapandı
+   2. tarih        ✓   53.5 sn  araçlar: -
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel oturum kapandı
+   3. hesap        ✓   65.2 sn  araçlar: -
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel araç: Glob 
+  yerel araç: Glob 
+  yerel oturum kapandı
+   4. dosya_say    ✓   92.7 sn  araçlar: Glob, Glob
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel araç: Grep 
+  yerel oturum kapandı
+   5. dosya_oku    ✗   79.7 sn  araçlar: Grep
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel araç: Glob 
+  yerel araç: Read (hata)
+  yerel araç: Read (hata)
+  yerel araç: Read (hata)
+  yerel araç: Glob 
+  yerel araç: Read (hata)
+  yerel araç: Read (hata)
+  yerel araç: Read (hata)
+  yerel araç: Read 
+  yerel araç: Read 
+  yerel araç: Read 
+  yerel oturum kapandı
+   6. satir_topla  ✗  212.3 sn  araçlar: Glob, Read, Read, Read, Glob, Read, Read, Read, Read, Read, Read
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel araç: Write 
+  yerel oturum kapandı
+   7. dosya_yaz    ✗   82.5 sn  araçlar: Write
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel araç: sunum 
+  yerel oturum kapandı
+   8. sunum_ac     ✗   85.0 sn  araçlar: sunum
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel araç: sunum 
+  yerel oturum kapandı
+   9. slayt        ✓   82.6 sn  araçlar: sunum
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel oturum kapandı
+  10. hafiza       ✗   74.3 sn  araçlar: -
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel araç: pano 
+  yerel oturum kapandı
+  11. pano         ✓   83.3 sn  araçlar: pano
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel oturum kapandı
+  12. mini_sinav   ✗  104.2 sn  araçlar: -
+  yerel oturum açıldı (qwen2.5:14b)
+  yerel araç: Glob 
+  yerel araç: Grep 
+  yerel araç: Bash 
+  yerel araç: Read (hata)
+  yerel araç: Bash 
+  yerel oturum kapandı
+  13. ingilizce    ✓  172.1 sn  araçlar: Glob, Grep, Bash, Read, Bash
+  yerel oturum açıldı (qwen2.5:14b)

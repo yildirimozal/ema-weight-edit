@@ -1,0 +1,2046 @@
+{
+ "ayar": {
+  "model": "mlx-community/Qwen3.5-4B-MLX-4bit",
+  "ad": "temel",
+  "yon_duyarliligi": true
+ },
+ "dogru_arac": {
+  "n": 98,
+  "cagri": 84,
+  "dogru": 76,
+  "yanlis_arac": 8,
+  "izin": {
+   "serbest": 83,
+   "sor": 1,
+   "yasak": 0
+  },
+  "ayrinti": [
+   {
+    "soru": "Hatırla: Ahmet'in telefonu 3. katta.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Ahmet'in telefonu 3. katta."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Unutma: pazartesi bölüm toplantısı var.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Aklında olsun: kahve makinesi filtresi bitti.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Not al: proje raporu ayın yirmisinde.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Proje raporu ayın yirmisinde."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hatırla, Elif'in savunması cuma on birde.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Elif'in savunması cuma on birde."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Unutma: arabanın muayenesi gelecek ay.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Arabanın muayenesi gelecek ay."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Aklında bulunsun: laboratuvar anahtarını Can aldı.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "laboratuvar anahtarını Can aldı."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Şunu not et: dersin saati on dörde alındı.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "dersin saati on dörde alındı."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hatırla: yedek projeksiyon kumandası dolapta.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Yedek projeksiyon kumandası dolapta."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Unutma, kütüphane kitabını geri vereceğim.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Kütüphane kitabını geri vereceğim."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Aklında olsun: toplantı odası B-204.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Toplantı odası B-204"
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Not al: Dekan ile görüşme perşembe.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Dekan ile görüşme perşembe."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hatırla: öğrenci sayısı bu dönem kırk iki.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Öğrenci sayısı bu dönem kırk iki."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Unutma: bugün su faturası son gün.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Aklında bulunsun: vize haftası kasımın son haftası.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Vize haftası kasımın son haftası."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hatırla: ofis kapı kodu değil, posta kutusu numarası on üç.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Posta kutusu numarası on üç."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Not et: yeni asistan Burak.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Yeni asistan Burak."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Unutma: kongre özeti ayın beşine kadar.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "Kongre özeti ayın beşine kadar."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Neleri hatırlıyorsun, kısaca say.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "listele"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": false,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hafızandaki toplantı notunu sil.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "listele"
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hafızandaki son notu oku.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "listele"
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hafızanı listele.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "listele"
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Sonraki slayt.",
+    "araclar": [
+     "slayt"
+    ],
+    "argumanlar": [
+     {
+      "kapsam": "hepsi"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": false,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Önceki slayt.",
+    "araclar": [
+     "sunum"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "onceki"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Yedinci slayta git.",
+    "araclar": [
+     "sunum"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "git",
+      "slayt": "7"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "İlk slayta dön.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Son slayta git.",
+    "araclar": [
+     "slayt"
+    ],
+    "argumanlar": [
+     {
+      "kapsam": "hepsi"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": false,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Sunumu kapat.",
+    "araclar": [
+     "sunum"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "kapat"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Slaytı ilerlet.",
+    "araclar": [
+     "slayt"
+    ],
+    "argumanlar": [
+     {
+      "kapsam": "bu"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": false,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Bir slayt geri.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Onuncu slayta geç.",
+    "araclar": [
+     "sunum"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "sonraki"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Sunumun başına git.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Hafta yedi sunumunu aç.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*hafta*5*.pdf"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Veri madenciliği dersinin hafta iki sunumunu göster.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*hafta2*.pdf",
+      "path": "Masaüstü"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "PISA sunumunu göster.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*pisa*.pdf"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Masaüstündeki tez sunumunu aç.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.pdf",
+      "path": "Masaüstü"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Belgeler klasöründeki seminer sunumunu aç.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.pdf",
+      "path": "Belgeler"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hafta on sunumunu projeksiyona aç.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*hafta on*.pdf"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Panoda şu listeyi göster: veri, bilgi, bilgelik.",
+    "araclar": [
+     "pano"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "liste",
+      "baslik": "veri, bilgi, bilgelik",
+      "maddeler": "[\"veri\", \"bilgi\", \"bilgelik\"]"
+     }
+    ],
+    "beklenen": [
+     "pano"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Panoda dört madde göster: giriş, yöntem, bulgular, sonuç.",
+    "araclar": [
+     "pano"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "liste",
+      "maddeler": "[\"Giriş\", \"Yöntem\", \"Bulgular\", \"Sonuç\"]",
+      "baslik": "Sunum Özeti"
+     }
+    ],
+    "beklenen": [
+     "pano"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Panoya şunları yaz: ATP, ADP, NADPH.",
+    "araclar": [
+     "pano"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "liste",
+      "baslik": "ATP, ADP, NADPH",
+      "maddeler": "[\"ATP\", \"ADP\", \"NADPH\"]"
+     }
+    ],
+    "beklenen": [
+     "pano"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Panoyu kapat.",
+    "araclar": [
+     "pano"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "kapat"
+     }
+    ],
+    "beklenen": [
+     "pano"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Panoda cevapları göster.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "pano"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Önemli noktaları panoya çıkar: normalizasyon, indeks, anahtar.",
+    "araclar": [
+     "pano"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "liste",
+      "baslik": "Veritabanı Temelleri",
+      "maddeler": "[\"Normalizasyon: Veritabanı şemalarını optimize etmek için kurallar bütünü\", \"İndeks: Veri sorgulama hızını artırmak için kullanılan yapı\", \"Anahtar: Veritabanı tablolarında benzersizliği belirlemek için kullanılan alan\"]"
+     }
+    ],
+    "beklenen": [
+     "pano"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Fotosentez konusunda üç soruluk mini sınav aç.",
+    "araclar": [
+     "pano"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "sinav"
+     }
+    ],
+    "beklenen": [
+     "pano",
+     "quiz"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hücre zarı hakkında iki soruluk quiz yap.",
+    "araclar": [
+     "quiz"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "olustur",
+      "baslik": "Hücre Zarı"
+     }
+    ],
+    "beklenen": [
+     "pano",
+     "quiz"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "sor"
+    ]
+   },
+   {
+    "soru": "Bugün anlattıklarımdan dört soruluk sınav hazırla.",
+    "araclar": [
+     "zaman"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "simdi"
+     }
+    ],
+    "beklenen": [
+     "pano",
+     "quiz"
+    ],
+    "cagri_var": true,
+    "dogru_arac": false,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Öğrencilere beş soruluk mini sınav aç, konu SQL birleştirme.",
+    "araclar": [
+     "pano"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "sinav"
+     }
+    ],
+    "beklenen": [
+     "pano",
+     "quiz"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Mitokondri konusunda kısa bir sınav göster.",
+    "araclar": [
+     "pano"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "sinav",
+      "baslik": "Mitokondri"
+     }
+    ],
+    "beklenen": [
+     "pano",
+     "quiz"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deftere yaz: yedinci hafta, normal formlar anlatıldı.",
+    "araclar": [
+     "defter"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "yaz",
+      "tur": "ders",
+      "baslik": "Yedinci Hafta",
+      "metin": "Normal formlar anlatıldı."
+     }
+    ],
+    "beklenen": [
+     "defter"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deftere kaydet: sınıf alt sorgularda zorlandı.",
+    "araclar": [
+     "defter"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "yaz",
+      "tur": "hata",
+      "baslik": "Sınıf alt sorguları",
+      "metin": "Sınıf alt sorgularda zorlandım."
+     }
+    ],
+    "beklenen": [
+     "defter"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deftere not düş: ödev tarihi bir hafta uzatıldı.",
+    "araclar": [
+     "defter"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "yaz",
+      "tur": "hata",
+      "baslik": "ödev tarihi uzatıldı",
+      "metin": "ödev tarihi bir hafta uzatıldı."
+     }
+    ],
+    "beklenen": [
+     "defter"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deftere ekle: proje gruplarını açıkladım.",
+    "araclar": [
+     "defter"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "yaz",
+      "tur": "proje",
+      "baslik": "Proje grupları",
+      "metin": "Proje gruplarını açıkladım."
+     }
+    ],
+    "beklenen": [
+     "defter"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Bugünkü dersi deftere kaydet: fotosentez ve hücre solunumu.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "defter"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Defterde normal formlar geçen kaydı bul.",
+    "araclar": [
+     "defter"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ara",
+      "aranan": "normal formlar"
+     }
+    ],
+    "beklenen": [
+     "defter"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Defterde geçen haftaki dersi ara.",
+    "araclar": [
+     "defter"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ara",
+      "tur": "ders"
+     }
+    ],
+    "beklenen": [
+     "defter"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Defterde proje ile ilgili kayıt var mı bak.",
+    "araclar": [
+     "defter"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ara",
+      "tur": "proje"
+     }
+    ],
+    "beklenen": [
+     "defter"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deneme klasöründe kaç txt var?",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.txt",
+      "path": "deneme"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Belgeler klasöründe kaç pdf var?",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.pdf",
+      "path": "Belgeler"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "İndirilenler'de kaç dosya var?",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "path": "İndirilenler",
+      "pattern": "*"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Masaüstünde kaç klasör var?",
+    "araclar": [
+     "Bash"
+    ],
+    "argumanlar": [
+     {
+      "command": "find ~/Desktop -type d | wc -l",
+      "description": "Masaüstünde bulunan tüm klasör sayısını sayar"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deneme klasöründeki md dosyalarını say.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.md",
+      "path": "deneme"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Belgeler'de docx dosyası var mı?",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.docx",
+      "path": "Belgeler"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Masaüstünde adında rapor geçen dosya var mı?",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*rapor*",
+      "path": "Masaüstü"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "İndirilenler'de en son indirilen dosya ne?",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "path": "İndirilenler",
+      "pattern": "*"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deneme klasöründe papatya kelimesi geçen dosya var mı?",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "**/*",
+      "path": "Deneme"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "notlar.txt dosyasında ne yazıyor?",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "notlar.txt"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "notlar.txt dosyasının ilk satırını oku.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "notlar.txt"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deneme klasöründeki a.txt dosyasını oku.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "**/deneme/**a.txt"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deneme klasöründeki txt dosyalarının toplam satır sayısı kaç?",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.txt",
+      "path": "deneme"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Masaüstündeki bütçe dosyasını aç.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*bütçe*",
+      "path": "Masaüstü"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deneme klasöründeki en büyük dosya hangisi?",
+    "araclar": [
+     "Bash"
+    ],
+    "argumanlar": [
+     {
+      "command": "find ~/Deneme -type f -exec ls -lh {} \\; | sort -k5 -h -r | head -1",
+      "description": "Deneme klasöründeki dosyaların boyutlarını kontrol eder ve en büyük dosyayı bular"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Belgeler'de bu yıl değişen dosyaları listele.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "path": "Belgeler",
+      "pattern": "*"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Çalışma klasörüne gorevler.txt yaz, içine üç görev yaz.",
+    "araclar": [
+     "Bash"
+    ],
+    "argumanlar": [
+     {
+      "command": "mkdir -p \"çalışma_klasörü\"",
+      "description": "Çalışma klasörü oluşturur"
+     }
+    ],
+    "beklenen": [
+     "Write",
+     "Edit",
+     "Bash",
+     "Glob"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Masaüstüne not.txt oluştur, içine merhaba yaz.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "Write",
+     "Edit",
+     "Bash",
+     "Glob"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "ozet.txt dosyasına yeni satır ekle: ders iptal.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "Write",
+     "Edit",
+     "Bash",
+     "Glob"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Çalışma klasöründe liste.csv oluştur, içine ad,soyad yaz.",
+    "araclar": [
+     "Bash"
+    ],
+    "argumanlar": [
+     {
+      "command": "mkdir -p \"Çalışma klasörü\"",
+      "description": "Çalışma klasörü klasörünü oluşturur"
+     }
+    ],
+    "beklenen": [
+     "Write",
+     "Edit",
+     "Bash",
+     "Glob"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deneme klasörüne yeni.txt yaz, içinde deneme yazsın.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.txt",
+      "path": "Deneme"
+     }
+    ],
+    "beklenen": [
+     "Write",
+     "Edit",
+     "Bash",
+     "Glob"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "notlar.txt dosyasının sonuna bugünün tarihini ekle.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "notlar.txt"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Çalışma klasörüne rapor.md oluştur, başlık olarak Rapor yaz.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "Write",
+     "Edit",
+     "Bash",
+     "Glob"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "ozet.txt dosyasındaki 'toplantı' kelimesini 'görüşme' yap.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "ozet.txt"
+     }
+    ],
+    "beklenen": [
+     "Write",
+     "Edit",
+     "Bash",
+     "Glob"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Bir saat sonrası saat kaç olur, zaman aracıyla bak.",
+    "araclar": [
+     "zaman"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "simdi"
+     }
+    ],
+    "beklenen": [
+     "zaman"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Yarın saat dokuzun tam zamanını zaman aracıyla ver.",
+    "araclar": [
+     "zaman"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "simdi"
+     }
+    ],
+    "beklenen": [
+     "zaman"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Kırk dakika sonrasını zaman aracıyla hesapla.",
+    "araclar": [
+     "zaman"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "dakika": "40"
+     }
+    ],
+    "beklenen": [
+     "zaman"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Haftaya salı saat onun tarihini zaman aracıyla bul.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "zaman"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Şu anki saati zaman aracıyla söyle.",
+    "araclar": [
+     "zaman"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "simdi"
+     }
+    ],
+    "beklenen": [
+     "zaman"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Telefonuma notlar.txt dosyasını gönder.",
+    "araclar": [
+     "telefon"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "dosya",
+      "dosya": "~/Desktop/notlar.txt"
+     }
+    ],
+    "beklenen": [
+     "telefon"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Telefonuma şu mesajı gönder: toplantı başlıyor.",
+    "araclar": [
+     "telefon"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "bildir",
+      "metin": "toplantı başlıyor"
+     }
+    ],
+    "beklenen": [
+     "telefon"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deneme klasöründeki a.txt dosyasını telefonuma yolla.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "a.txt",
+      "path": "Deneme"
+     }
+    ],
+    "beklenen": [
+     "telefon"
+    ],
+    "cagri_var": true,
+    "dogru_arac": false,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "ozet.txt dosyasının gerçekten yazıldığını doğrula.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "ozet.txt"
+     }
+    ],
+    "beklenen": [
+     "dogrula"
+    ],
+    "cagri_var": true,
+    "dogru_arac": false,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hatırlatmanın kurulduğunu doğrula.",
+    "araclar": [
+     "dogrula"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "hatirlatma"
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": false,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Dosyanın var olduğunu dogrula aracıyla kontrol et.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "dogrula"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Masaüstündeki sunumu bul ve aç.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.pdf",
+      "path": "Masaüstü"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Deneme klasöründe iki geçen dosya var mı bak.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "**/deneme/**"
+     }
+    ],
+    "beklenen": [
+     "Glob",
+     "Bash",
+     "Read",
+     "Grep"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Belgeler klasöründe sunum dosyalarını listele.",
+    "araclar": [
+     "Glob"
+    ],
+    "argumanlar": [
+     {
+      "pattern": "*.pdf",
+      "path": "Belgeler"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Hafızaya ekle: en sevdiğim renk mavi.",
+    "araclar": [
+     "hafiza"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "ekle",
+      "metin": "en sevdiğim renk mavi."
+     }
+    ],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   },
+   {
+    "soru": "Unutma: cumartesi veli toplantısı.",
+    "araclar": [],
+    "argumanlar": [],
+    "beklenen": [
+     "hafiza"
+    ],
+    "cagri_var": false,
+    "dogru_arac": false,
+    "kararlar": []
+   },
+   {
+    "soru": "Slayt beşe git.",
+    "araclar": [
+     "sunum"
+    ],
+    "argumanlar": [
+     {
+      "eylem": "git",
+      "slayt": "5"
+     }
+    ],
+    "beklenen": [
+     "sunum",
+     "Glob",
+     "Bash"
+    ],
+    "cagri_var": true,
+    "dogru_arac": true,
+    "kararlar": [
+     "serbest"
+    ]
+   }
+  ]
+ },
+ "yon_duyarliligi": {
+  "kosinus_200": {
+   "27": [
+    0.954,
+    0.856
+   ],
+   "28": [
+    0.944,
+    0.822
+   ],
+   "29": [
+    0.943,
+    0.811
+   ]
+  },
+  "denemeler": [
+   {
+    "alt_kume": [
+     8,
+     1,
+     14,
+     2,
+     12,
+     13,
+     6,
+     0,
+     4,
+     9
+    ],
+    "kosinus_27_29": [
+     0.966,
+     0.963,
+     0.962
+    ],
+    "sinama_cagri": 40,
+    "gereksiz": 1,
+    "duzelen": 9,
+    "bozulan": 0
+   },
+   {
+    "alt_kume": [
+     2,
+     3,
+     4,
+     8,
+     10,
+     9,
+     1,
+     6,
+     7,
+     14
+    ],
+    "kosinus_27_29": [
+     0.923,
+     0.91,
+     0.911
+    ],
+    "sinama_cagri": 40,
+    "gereksiz": 1,
+    "duzelen": 9,
+    "bozulan": 0
+   },
+   {
+    "alt_kume": [
+     11,
+     13,
+     7,
+     9,
+     5,
+     4,
+     0,
+     2,
+     3,
+     8
+    ],
+    "kosinus_27_29": [
+     0.958,
+     0.948,
+     0.946
+    ],
+    "sinama_cagri": 40,
+    "gereksiz": 0,
+    "duzelen": 9,
+    "bozulan": 0
+   }
+  ]
+ }
+}

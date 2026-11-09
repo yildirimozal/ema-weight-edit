@@ -1,0 +1,5 @@
+v1 itme 5 kanal b=0.5gap                 geliştirme 67/68 (düzelen 14, bozulan 0, gereksiz 0) | sınama 40/40 (düzelen 9, bozulan 0, gereksiz 0) [224 sn]
+v1 itme 10 kanal b=0.5gap                geliştirme 67/68 (düzelen 14, bozulan 0, gereksiz 0) | sınama 40/40 (düzelen 9, bozulan 0, gereksiz 0) [225 sn]
+v1 itme 20 kanal b=0.5gap                geliştirme 67/68 (düzelen 15, bozulan 0, gereksiz 0) | sınama 40/40 (düzelen 9, bozulan 0, gereksiz 0) [213 sn]
+v2 silme a=1 + v2 itme 10 kanal b=0.5gap geliştirme 63/68 (düzelen 12, bozulan 1, gereksiz 0) | sınama 38/40 (düzelen 8, bozulan 1, gereksiz 1) [227 sn]
+v1 itme 10 kanal b=0.4gap                geliştirme 66/68 (düzelen 14, bozulan 0, gereksiz 0) | sınama 39/40 (düzelen 8, bozulan 0, gereksiz 0) [214 sn]

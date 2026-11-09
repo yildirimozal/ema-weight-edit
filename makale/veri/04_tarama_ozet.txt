@@ -1,0 +1,15 @@
+=== --katman 27,28,29 --kip mlp --a 1.0 --yon hepsi
+karar noktası hepsi mlp katman [27, 28, 29] a=1.0 ilk=3: araç isteyen 68 istemde 59 araç çağrısı (temel 52); araçsız 8 istemde 0 gereksiz (156 sn)
+  önceki kötü 15 istemin 7'i artık araç çağırıyor; önceki iyi 53 istemin 1'i bozuldu
+=== --katman 27,28,29 --kip mlp --a 2.0 --yon hepsi
+karar noktası hepsi mlp katman [27, 28, 29] a=2.0 ilk=3: araç isteyen 68 istemde 60 araç çağrısı (temel 52); araçsız 8 istemde 1 gereksiz (159 sn)
+  önceki kötü 15 istemin 8'i artık araç çağırıyor; önceki iyi 53 istemin 1'i bozuldu
+=== --katman 24,25,26,27,28,29 --kip mlp --a 1.0 --yon hepsi
+karar noktası hepsi mlp katman [24, 25, 26, 27, 28, 29] a=1.0 ilk=3: araç isteyen 68 istemde 53 araç çağrısı (temel 52); araçsız 8 istemde 0 gereksiz (153 sn)
+  önceki kötü 15 istemin 6'i artık araç çağırıyor; önceki iyi 53 istemin 6'i bozuldu
+=== --katman 27,28,29 --kip iz --a 1.5 --ilk 3 --yon hepsi
+karar noktası hepsi iz katman [27, 28, 29] a=1.5 ilk=3: araç isteyen 68 istemde 55 araç çağrısı (temel 52); araçsız 8 istemde 0 gereksiz (155 sn)
+  önceki kötü 15 istemin 7'i artık araç çağırıyor; önceki iyi 53 istemin 5'i bozuldu
+=== --katman 26,27,28,29 --kip iz --a 1.0 --ilk 5 --yon hepsi
+karar noktası hepsi iz katman [26, 27, 28, 29] a=1.0 ilk=5: araç isteyen 68 istemde 56 araç çağrısı (temel 52); araçsız 8 istemde 0 gereksiz (158 sn)
+  önceki kötü 15 istemin 7'i artık araç çağırıyor; önceki iyi 53 istemin 4'i bozuldu

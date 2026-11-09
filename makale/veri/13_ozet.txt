@@ -1,0 +1,4 @@
+temel        98 istem: çağrı 84, doğru araç 76, yanlış araç 8, izin dağılımı serbest 83 / sor 1 / yasak 0 (335 sn)
+itme         98 istem: çağrı 96, doğru araç 91, yanlış araç 5, izin dağılımı serbest 94 / sor 2 / yasak 0 (208 sn)
+silme        98 istem: çağrı 85, doğru araç 78, yanlış araç 7, izin dağılımı serbest 84 / sor 1 / yasak 0 (219 sn)
+bitti

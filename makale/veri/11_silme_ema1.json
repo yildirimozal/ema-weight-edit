@@ -1,0 +1,1864 @@
+{
+ "ayar": {
+  "model": "~/sahne_asistani/agirlik/cikti/model_ema1",
+  "ad": "silme_ema1",
+  "orneklerle": false,
+  "tekrar": 2
+ },
+ "regresyon": [
+  {
+   "soru": "Fransa'nın başkenti neresi?",
+   "cevap": "Fransa'nın başkenti Paris'tir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 30
+  },
+  {
+   "soru": "Japonya'nın başkenti neresi?",
+   "cevap": "Japonya'nın başkenti Tokyo'dur.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 31
+  },
+  {
+   "soru": "Almanya'nın başkenti neresi?",
+   "cevap": "Almanya'nın başkenti Berlin'dir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 32
+  },
+  {
+   "soru": "Dünyanın en büyük okyanusu hangisi?",
+   "cevap": "Şu an saat: 2024-05-15 14:32. Dünyanın en büyük okyanusu Pasifik Okyanusu.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 74
+  },
+  {
+   "soru": "Suyun kimyasal formülü nedir?",
+   "cevap": "Şu an 2025 yılının 10 ayının 12 günde saat 14:30. Suyun kimyasal formülü H₂O'dur.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 81
+  },
+  {
+   "soru": "Işık hızı saniyede yaklaşık kaç kilometredir?",
+   "cevap": "Işık hızı saniyede yaklaşık 300.000 kilometredir.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 49
+  },
+  {
+   "soru": "İnsan vücudunda kaç kemik vardır?",
+   "cevap": "Şu an 14:35. İnsan vücudunda yetişkinlerde 206 kemik bulunur. Çocuklarda bu saya 300'e kadar çıkar, çünkü büyüme sırasında bazı kemikler birleşir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 146
+  },
+  {
+   "soru": "Türkiye Cumhuriyeti hangi yıl kuruldu?",
+   "cevap": "Türkiye Cumhuriyeti 29 Ekim 1923'te kuruldu.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 44
+  },
+  {
+   "soru": "İstanbul'un fethi hangi yıldır?",
+   "cevap": "Şu an 2025. İstanbul'un fethi 1453 yılında gerçekleşti.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 55
+  },
+  {
+   "soru": "Ay, Dünya'nın etrafında yaklaşık kaç günde döner?",
+   "cevap": "Dünya, Güneş etrafında yaklaşık 365 günde bir döner. Bu süre 365 gün 6 saat 9 dakika gibi de ifade edilebilir. Bu yüzden takvimde her yıl 366 gün olan bir \"karma yıl\" da vardır.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 177
+  },
+  {
+   "soru": "Güneş sistemindeki en büyük gezegen hangisi?",
+   "cevap": "Jüpiter, Güneş sistemindeki en büyük gezegendir. Çapı diğer tüm gezegenlerin toplamından bile büyüktür.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 103
+  },
+  {
+   "soru": "Fotosentez hangi organelde gerçekleşir?",
+   "cevap": "Fotosentez, bitki hücrelerinin içindeki kloroplast organelinde gerçekleşir. Klorofil maddesi sayesinde güneş enerjisini kullanarak karbon dioksit ve suyu glikoz ve oksijene dönüştürür.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 184
+  },
+  {
+   "soru": "DNA'nın açılımı nedir?",
+   "cevap": "Şu an 2025-05-22 14:35:47. DNA, Deoksiribonükleik Asidın kısaltmasıdır. Bu molekül, canlıların genetik bilgilerini taşıyan ve hücre bölünmesi sırasında kopyalanabilen yapıdır.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 175
+  },
+  {
+   "soru": "Bir üçgenin iç açıları toplamı kaç derecedir?",
+   "cevap": "Üçgenin iç açıları toplamı her zaman 180 derecedir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 51
+  },
+  {
+   "soru": "Pi sayısının ilk üç basamağı nedir?",
+   "cevap": "Pi sayısının ilk üç basamağı 3,14'tür. Yani pi sayısı 3,14159... şeklinde devam eder.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 85
+  },
+  {
+   "soru": "Mona Lisa'yı kim yaptı?",
+   "cevap": "Mona Lisa, Leonardo da Vinci tarafından 1503-1506 yılları arasında yapılmıştır.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 79
+  },
+  {
+   "soru": "Nutuk'u kim yazdı?",
+   "cevap": "Nutuk, Mustafa Kemal Atatürk tarafından yazıldı. 1920'de Sivas Kongresi'nde okunmaya başlanan bu eser, Türkiye'nin bağımsızlık mücadelesini ve Atatürk'ün vizyonunu anlatan önemli bir belgedir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 192
+  },
+  {
+   "soru": "Hangi gezegen Kızıl Gezegen olarak bilinir?",
+   "cevap": "Kızıl Gezegen Mars olarak bilinir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 34
+  },
+  {
+   "soru": "Everest hangi sıradağlardadır?",
+   "cevap": "Evrast, Himalayalar sıradağlarındadır. Bu sıradağlar, Hindistan ve Nepal sınırlarında yer alır. Everest, dünyanın en yüksek noktası olan 8.848 metre yüksekliğe sahiptir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 169
+  },
+  {
+   "soru": "Nil Nehri hangi kıtadadır?",
+   "cevap": "Nil Nehri Afrika kıtasında bulunur.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 35
+  },
+  {
+   "soru": "Bir dakikada kaç saniye vardır?",
+   "cevap": "Bir dakikada 60 saniye vardır.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 30
+  },
+  {
+   "soru": "Bir yılda kaç hafta vardır?",
+   "cevap": "Bir yılda 52 tam hafta vardır, ama 366 gün (dolap yıl) ise 53 hafta çıkar. Normal yıl 52 hafta, 1 gün fazladır.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 111
+  },
+  {
+   "soru": "On yedi kere altı kaç eder?",
+   "cevap": "Yedi kere altı, 42 eder.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 24
+  },
+  {
+   "soru": "Yüz yirmi dörtün yarısı kaç?",
+   "cevap": "Yüz yirmi dörtün yarısı elli iki. Şu an 2024-05-15 14:32:17.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 60
+  },
+  {
+   "soru": "İki yüzün yüzde on beşi kaç?",
+   "cevap": "Şu an saat: 2024-05-15 14:32. İki yüzün yüzde on beşi, yani 105'dir.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 68
+  },
+  {
+   "soru": "Sekiz yüz bölü yirmi beş kaç?",
+   "cevap": "Şu an 2025-05-22 14:35:00. Sekiz yüz bölü yirmi beş, yani 800 tam bölü 205'e eşittir. 800'i 205'e böldüğümüzde yaklaşık 3,8995 sonucu çıkar. Yani 800 tam bölü 205, yaklaşık 3,9'a eşittir.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 187
+  },
+  {
+   "soru": "Kırk beş artı yetmiş sekiz kaç eder?",
+   "cevap": "Kırk beş artı yetmiş sekiz on doksan üç eder.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 45
+  },
+  {
+   "soru": "Dokuzun karesi kaç?",
+   "cevap": "Dokuzun karesi 81.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 18
+  },
+  {
+   "soru": "Yüz altmış dörtün karekökü kaç?",
+   "cevap": "Yüz altmış dörtün karekökü 12.845.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 34
+  },
+  {
+   "soru": "Üç saat kaç dakikadır?",
+   "cevap": "Üç saat 180 dakikadır.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 22
+  },
+  {
+   "soru": "Bir haftada kaç saat vardır?",
+   "cevap": "Şu an bir haftada 168 saat vardır. Hafta 7 gün, bir gün de 24 saat olduğu için 7 x 24 = 168 eder.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 97
+  },
+  {
+   "soru": "Yüz kilometre kaç metredir?",
+   "cevap": "Yüz kilometre 100.000 metredir.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 31
+  },
+  {
+   "soru": "Beş kilogram kaç gramdır?",
+   "cevap": "Beş kilogram 5000 gramdır.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 26
+  },
+  {
+   "soru": "Yirmi beş santigrat derece kaç Fahrenheit'tır?",
+   "cevap": "Yirmi beş santigrat derece elli yedi Fahrenheit'e eşittir.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 58
+  },
+  {
+   "soru": "Bir düzine kaçtır?",
+   "cevap": "Şu an bir düzine 12'dir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 24
+  },
+  {
+   "soru": "Bir saatte 60 kilometre giden araç 2,5 saatte kaç kilometre gider?",
+   "cevap": "Şu an 14:32.\n\nBir saatte 60 kilometre giden araç 2,5 saatte 150 kilometre gider.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 80
+  },
+  {
+   "soru": "Kırk sekizin yüzde yirmi beşi kaç?",
+   "cevap": "Şu an 2025-05-13 14:35:42.\n\nKırk sekizin yüzde yirmi beşi 2075.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 63
+  },
+  {
+   "soru": "Otuz altının yarısının yarısı kaç?",
+   "cevap": "Şu an 14.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 9
+  },
+  {
+   "soru": "Metin: Ayşe sabah sekizde evden çıktı, dokuzda okula vardı. Soru: Ayşe'nin yolu kaç saat sürdü?",
+   "cevap": "Şu an 14:35. Ayşe sabah 08:00'de evden çıkıp 09:00'da okula gittiği için yolu 1 saat sürmüştür.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 95
+  },
+  {
+   "soru": "Metin: Masada üç kırmızı, iki mavi kalem var. Soru: Masada toplam kaç kalem var?",
+   "cevap": "Üç kırmızı ve iki mavi kalem var, yani toplamda beş kalem var.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 62
+  },
+  {
+   "soru": "Metin: Ali, Veli'den uzun; Veli, Can'dan uzun. Soru: En kısa kim?",
+   "cevap": "En kısa Can.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 12
+  },
+  {
+   "soru": "Metin: Toplantı salı günü saat üçte, bir gün ertelendi. Soru: Toplantı hangi gün?",
+   "cevap": "Şu an 2024-05-12. Bir gün ertelenirse toplantı 2024-05-13, yani Perşembe günü olacak.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 85
+  },
+  {
+   "soru": "Metin: Kedi bahçede, köpek evde. Soru: Köpek nerede?",
+   "cevap": "Köpek evde.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 11
+  },
+  {
+   "soru": "Metin: Mehmet 12 yaşında, kardeşi ondan 4 yaş küçük. Soru: Kardeşi kaç yaşında?",
+   "cevap": "Mehmet 12 yaşında, kardeşi 8 yaşında.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 37
+  },
+  {
+   "soru": "Metin: Markette elma kilosu 40 lira, armut 60 lira. Soru: Hangisi daha ucuz?",
+   "cevap": "Şu an 14:32. Elma daha ucuz, çünkü kilosu 40 lira, armut ise 60 lira.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 69
+  },
+  {
+   "soru": "Metin: Tren 10:15'te kalktı, yolculuk 2 saat 30 dakika sürdü. Soru: Tren kaçta vardı?",
+   "cevap": "Şu an 10:15'te. Tren 10:15'te kalktı, 2 saat 30 dakika sürdü. Yolculuğun bitiş saati 12:45 olur.\n\nTren 12:45'te vardı.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 118
+  },
+  {
+   "soru": "Metin: Sınıfta 30 öğrenci var, 18'i kız. Soru: Kaç erkek öğrenci var?",
+   "cevap": "Şu an 30 öğrenci var, 18'i kız. O zaman 12'er erkek öğrenci var.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 64
+  },
+  {
+   "soru": "Metin: Kitap 240 sayfa, Zeynep günde 30 sayfa okuyor. Soru: Kitabı kaç günde bitirir?",
+   "cevap": "Şu an 14:32. Kitap 8 günde bitilir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 35
+  },
+  {
+   "soru": "Üç tane meyve adı say.",
+   "cevap": "Şu an saat: 2024-05-15 14:32:17\n\nÜç meyve: elma, armut, muz.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 60
+  },
+  {
+   "soru": "Haftanın günlerini sırayla söyle.",
+   "cevap": "Şu an Pazar günü. Haftanın günleri sırayla Pazar, Pazartesi, Salı, Çarşamba, Perşembe, Cuma, Cumartesi.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 103
+  },
+  {
+   "soru": "Bir ile on arasındaki çift sayıları söyle.",
+   "cevap": "Şu an 1 ile 10 arasındaki çift sayılar: 2, 4, 6, 8 ve 10. Toplam beş çift sayı var.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 83
+  },
+  {
+   "soru": "'Kitap' kelimesinin İngilizcesi nedir?",
+   "cevap": "\"Kitap\" kelimesinin İngilizcesi \"book\"dır.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 42
+  },
+  {
+   "soru": "'Teşekkür ederim' İngilizcede nasıl söylenir?",
+   "cevap": "\"Thank you\" İngilizcede teşekkür eder.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 38
+  },
+  {
+   "soru": "Türkiye'nin üç büyük şehrini say.",
+   "cevap": "Şu an saat: 2024-05-15 14:32:17\n\nTürkiye'nin üç büyük şehri İstanbul, Ankara ve İzmir'dir. Bunlar nüfusu ve ekonomik önemi açısından en önemli şehirlerdir.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 155
+  },
+  {
+   "soru": "Güneş sisteminin ilk dört gezegenini say.",
+   "cevap": "Şu an saat: 2024-05-15 14:32:17\n\nGüneş sisteminin ilk dört gezegeni: Merkür, Venüs, Dünya ve Mars. Bunlar Güneş'e en yakın gezegenler.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 134
+  },
+  {
+   "soru": "Kırmızı ve sarı karışınca hangi renk olur?",
+   "cevap": "Kırmızı ve sarı karışınca turuncu renk oluşur.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 46
+  },
+  {
+   "soru": "Yılın kaçıncı ayı Ağustos?",
+   "cevap": "Şu an 8. ayı Ağustos.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 21
+  },
+  {
+   "soru": "Alfabenin ilk beş harfini söyle.",
+   "cevap": "Şu an saat: 2024-05-15 14:32:17\n\nAlfabenin ilk beş harfi: A, B, C, D, E.",
+   "dogru": false,
+   "arac": false,
+   "uzunluk": 72
+  },
+  {
+   "soru": "Üç tane Türk şehri söyle, hepsi deniz kenarında olsun.",
+   "cevap": "Şu an 2025-02-10 14:35:00\n\nTürkiye'de deniz kenarında üç şehir: İstanbul, İzmir ve Mersin.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 90
+  },
+  {
+   "soru": "Bir cümleyle Ankara'yı tanıt.",
+   "cevap": "Ankara, Türkiye'nin başkenti ve tarihi, kültürel ve sanatsal zenginlikleriyle tanınan büyük bir şehir.",
+   "dogru": true,
+   "arac": false,
+   "uzunluk": 102
+  }
+ ],
+ "buyuk": [
+  {
+   "arac": 85,
+   "arac_toplam": 98,
+   "gereksiz": 0,
+   "duz_toplam": 20,
+   "ayrinti": [
+    {
+     "grup": "arac",
+     "soru": "Hatırla: Ahmet'in telefonu 3. katta.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nAhmet'in telefonu 3. katta.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: pazartesi bölüm toplantısı var.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nPazartesi bölüm toplantısı var.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Aklında olsun: kahve makinesi filtresi bitti.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nKahve makinesi filtresi bitti.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Not al: proje raporu ayın yirmisinde.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nProje raporu ayın yirmisinde.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırla, Elif'in savunması cuma on birde.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nElif'in savunması cuma on birde.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: arabanın muayenesi gelecek ay.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nArabanın muayenesi gelecek ay.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Aklında bulunsun: laboratuvar anahtarını Can aldı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nlaboratuvar anahtarını Can aldı.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Şunu not et: dersin saati on dörde alındı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\ndersin saati on dörde alındı.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırla: yedek projeksiyon kumandası dolapta.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nYedek projeksiyon kumandası dolapta.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma, kütüphane kitabını geri vereceğim.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nKütüphane kitabını geri vereceğim.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Aklında olsun: toplantı odası B-204.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nToplantı odası B-204\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Not al: Dekan ile görüşme perşembe.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nDekan ile görüşme perşembe.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırla: öğrenci sayısı bu dönem kırk iki.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nÖğrenci sayısı bu dönem kırk iki.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: bugün su faturası son gün.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nBugün su faturası son günü.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Aklında bulunsun: vize haftası kasımın son haftası.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nVize haftası kasımın son haftası.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırla: ofis kapı kodu değil, posta kutusu numarası on üç.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nPosta kutusu numarası on üç.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Not et: yeni asistan Burak.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nYeni asistan Burak.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: kongre özeti ayın beşine kadar.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nKongre özeti ayın beşine kadar.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Neleri hatırlıyorsun, kısaca say.",
+     "arac": true,
+     "cikti": "Şu an hafızamda saklı olan notları listeye alayım.\n\n<tool_call>\n<function=hafiza>\n<parameter=eylem>\nlistele\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafızandaki toplantı notunu sil.",
+     "arac": true,
+     "cikti": "Hafızandaki toplantı notlarını silmek için önce listeyi görebiliriz, sonra silmek istediğin notun numarasını belirleyip silebilirim.\n\n<tool_call>\n<function=hafi"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafızandaki son notu oku.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nlistele\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafızanı listele.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nlistele\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Sonraki slayt.",
+     "arac": true,
+     "cikti": "Şu an slayt 2'deyim. Sonraki slayta geçiyorum.\n\n<tool_call>\n<function=sunum>\n<parameter=eylem>\nsonraki\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Önceki slayt.",
+     "arac": false,
+     "cikti": "Önceki slayta geçiyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "Yedinci slayta git.",
+     "arac": true,
+     "cikti": "Şu an yedinci slayta geçiyorum.\n\n<tool_call>\n<function=sunum>\n<parameter=eylem>\ngit\n</parameter>\n<parameter=slayt>\n7\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "İlk slayta dön.",
+     "arac": false,
+     "cikti": "Şu an slayt alanındaki slayta dönüyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "Son slayta git.",
+     "arac": true,
+     "cikti": "Şu an slayt sayısını kontrol edip en sonuna geçiyorum.\n\n<tool_call>\n<function=slayt>\n<parameter=kapsam>\nhepsi\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Sunumu kapat.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=sunum>\n<parameter=eylem>\nkapat\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Slaytı ilerlet.",
+     "arac": true,
+     "cikti": "Şu an slayt alanındaki slayta bakıyorum.\n\n<tool_call>\n<function=slayt>\n<parameter=kapsam>\nbu\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Bir slayt geri.",
+     "arac": false,
+     "cikti": "Şu an hangi sunumda olduğunuzu biliyor musunuz? Dosya yolunu söyleyebilir misiniz?"
+    },
+    {
+     "grup": "arac",
+     "soru": "Onuncu slayta geç.",
+     "arac": true,
+     "cikti": "Şu an slayt 10'dayım. Sonraki slayta geçiyorum.\n\n<tool_call>\n<function=sunum>\n<parameter=eylem>\nsonraki\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Sunumun başına git.",
+     "arac": false,
+     "cikti": "Şu an slayt 1'deyim."
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafta yedi sunumunu aç.",
+     "arac": true,
+     "cikti": "Hemen bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*hafta*5*.pdf\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Veri madenciliği dersinin hafta iki sunumunu göster.",
+     "arac": true,
+     "cikti": "Şu an hafta iki sunumunu açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*hafta2*.pdf\n</parameter>\n<parameter=path>\nMasaüstü\n</parameter>\n</function>"
+    },
+    {
+     "grup": "arac",
+     "soru": "PISA sunumunu göster.",
+     "arac": true,
+     "cikti": "PISA sunumunu önce bulup sonra projeksiyona açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*pisa*.pdf\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstündeki tez sunumunu aç.",
+     "arac": true,
+     "cikti": "Masaüstündeki sunumu açıyorum. Önce dosyayı bulup sonra projeksiyona açacağım.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=pa"
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler klasöründeki seminer sunumunu aç.",
+     "arac": true,
+     "cikti": "Belgeler klasöründeki sunum dosyasını bulup açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=path>\nBelgeler\n</parameter>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafta on sunumunu projeksiyona aç.",
+     "arac": true,
+     "cikti": "Hemen bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*hafta on*.pdf\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoda şu listeyi göster: veri, bilgi, bilgelik.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=pano>\n<parameter=eylem>\nliste\n</parameter>\n<parameter=maddeler>\n[\"veri\", \"bilgi\", \"bilgelik\"]\n</parameter>\n<parameter=baslik>\nveri, bilgi,"
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoda dört madde göster: giriş, yöntem, bulgular, sonuç.",
+     "arac": true,
+     "cikti": "Şu an panoyu açıyorum ve istediğin dört maddeyi gösteriyorum.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nliste\n</parameter>\n<parameter=maddeler>\n[\"Giriş\", \""
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoya şunları yaz: ATP, ADP, NADPH.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=pano>\n<parameter=eylem>\nliste\n</parameter>\n<parameter=maddeler>\n[\"ATP\", \"ADP\", \"NADPH\"]\n</parameter>\n<parameter=baslik>\nATP, ADP, NADPH\n</"
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoyu kapat.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=pano>\n<parameter=eylem>\nkapat\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoda cevapları göster.",
+     "arac": false,
+     "cikti": "Şu an hangi konuyu veya listeyi panoda göstermek istediğini söyleyebilir misin?"
+    },
+    {
+     "grup": "arac",
+     "soru": "Önemli noktaları panoya çıkar: normalizasyon, indeks, anahtar.",
+     "arac": true,
+     "cikti": "Şu an zamanı kontrol edip panoya önemli noktaları çıkarıyorum.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nliste\n</parameter>\n<parameter=baslik>\nVeritabanı T"
+    },
+    {
+     "grup": "arac",
+     "soru": "Fotosentez konusunda üç soruluk mini sınav aç.",
+     "arac": true,
+     "cikti": "Şu an mini sınav açıyorum.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nsinav\n</parameter>\n<parameter=sorular>\n[{\"soru\": \"Fotosentezde kullanılan ana pigment "
+    },
+    {
+     "grup": "arac",
+     "soru": "Hücre zarı hakkında iki soruluk quiz yap.",
+     "arac": true,
+     "cikti": "Hemen hazırlıyorum.\n\n<tool_call>\n<function=quiz>\n<parameter=eylem>\nolustur\n</parameter>\n<parameter=baslik>\nHücre Zarı\n</parameter>\n<parameter=sorular>\n[{\"soru\":"
+    },
+    {
+     "grup": "arac",
+     "soru": "Bugün anlattıklarımdan dört soruluk sınav hazırla.",
+     "arac": true,
+     "cikti": "Şu an saatini söyle, sonra hemen bakıyorum.\n\n<tool_call>\n<function=zaman>\n<parameter=eylem>\nsimdi\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Öğrencilere beş soruluk mini sınav aç, konu SQL birleştirme.",
+     "arac": true,
+     "cikti": "Şu an mini sınav açıyorum, 5 soru ile SQL birleştirme konusundan.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nsinav\n</parameter>\n<parameter=sorular>\n[{\"soru\""
+    },
+    {
+     "grup": "arac",
+     "soru": "Mitokondri konusunda kısa bir sınav göster.",
+     "arac": true,
+     "cikti": "Şu an 10:23. Panoda mini sınav açıyorum, 3 soru ile Mitokondri konusundan sorular hazırlıyorum.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nsinav\n</parameter"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deftere yaz: yedinci hafta, normal formlar anlatıldı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nyaz\n</parameter>\n<parameter=tur>\nders\n</parameter>\n<parameter=baslik>\nYedinci Hafta\n</parameter>\n<parameter=meti"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deftere kaydet: sınıf alt sorgularda zorlandı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nyaz\n</parameter>\n<parameter=tur>\nhata\n</parameter>\n<parameter=baslik>\nsınıf alt sorguları\n</parameter>\n<paramete"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deftere not düş: ödev tarihi bir hafta uzatıldı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nyaz\n</parameter>\n<parameter=tur>\nhata\n</parameter>\n<parameter=baslik>\nödev tarihi uzatıldı\n</parameter>\n<paramet"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deftere ekle: proje gruplarını açıkladım.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nyaz\n</parameter>\n<parameter=tur>\nproje\n</parameter>\n<parameter=baslik>\nProje grupları\n</parameter>\n<parameter=me"
+    },
+    {
+     "grup": "arac",
+     "soru": "Bugünkü dersi deftere kaydet: fotosentez ve hücre solunumu.",
+     "arac": false,
+     "cikti": "Şu an 2025-05-15 14:35. Deftere \"ders\" türünde \"fotosentez ve hücre solunumu\" başlıklı kayıt ekleyeceğim."
+    },
+    {
+     "grup": "arac",
+     "soru": "Defterde normal formlar geçen kaydı bul.",
+     "arac": true,
+     "cikti": "Şu an defterde \"normal formlar\" geçen kaydı arıyorum.\n\n<tool_call>\n<function=defter>\n<parameter=eylem>\nara\n</parameter>\n<parameter=aranan>\nnormal formlar\n</para"
+    },
+    {
+     "grup": "arac",
+     "soru": "Defterde geçen haftaki dersi ara.",
+     "arac": true,
+     "cikti": "Şu an defterde geçen hafta kayıtlarını arıyorum.\n\n<tool_call>\n<function=defter>\n<parameter=eylem>\nara\n</parameter>\n<parameter=tur>\nders\n</parameter>\n</function>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Defterde proje ile ilgili kayıt var mı bak.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nara\n</parameter>\n<parameter=tur>\nproje\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründe kaç txt var?",
+     "arac": true,
+     "cikti": "Şu an deneme klasöründe kaç tane .txt dosyası olduğunu sayıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.txt\n</parameter>\n<parameter=path>\ndeneme\n</"
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler klasöründe kaç pdf var?",
+     "arac": true,
+     "cikti": "Şu an belgeler klasöründe kaç PDF var bakalım.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=path>\nBelgeler\n</parameter>\n</func"
+    },
+    {
+     "grup": "arac",
+     "soru": "İndirilenler'de kaç dosya var?",
+     "arac": true,
+     "cikti": "Şu an İndirilenler klasöründe kaç dosya olduğunu sayıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=path>\nİndirilenler\n</parameter>\n<parameter=pattern>\n*\n</para"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstünde kaç klasör var?",
+     "arac": true,
+     "cikti": "Şu an masaüstünde kaç klasör olduğunu sayıyorum.\n\n<tool_call>\n<function=Bash>\n<parameter=command>\nfind ~/Desktop -type d | wc -l\n</parameter>\n<parameter=descrip"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki md dosyalarını say.",
+     "arac": true,
+     "cikti": "Şu an deneme klasöründeki .md dosyalarını sayıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.md\n</parameter>\n<parameter=path>\ndeneme\n</parameter>\n</f"
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler'de docx dosyası var mı?",
+     "arac": true,
+     "cikti": "Belgeler klasöründe .docx dosyası var mı bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.docx\n</parameter>\n<parameter=path>\nBelgeler\n</parameter>\n"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstünde adında rapor geçen dosya var mı?",
+     "arac": true,
+     "cikti": "Masaüstünde \"rapor\" geçen dosyaları kontrol ediyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*rapor*\n</parameter>\n<parameter=path>\nMasaüstü\n</paramete"
+    },
+    {
+     "grup": "arac",
+     "soru": "İndirilenler'de en son indirilen dosya ne?",
+     "arac": true,
+     "cikti": "Şu an İndirilenler klasöründe en son indirilen dosyayı buluyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=path>\nİndirilenler\n</parameter>\n<parameter=pattern>\n*\n"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründe papatya kelimesi geçen dosya var mı?",
+     "arac": true,
+     "cikti": "Şu an bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n**/*\n</parameter>\n<parameter=path>\nDeneme\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "notlar.txt dosyasında ne yazıyor?",
+     "arac": true,
+     "cikti": "Dosyayı bulup okuyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nnotlar.txt\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "notlar.txt dosyasının ilk satırını oku.",
+     "arac": true,
+     "cikti": "Dosyayı bulup ilk satırını okuyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nnotlar.txt\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki a.txt dosyasını oku.",
+     "arac": true,
+     "cikti": "Dosyayı bulup okuyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.txt\n</parameter>\n<parameter=path>\nDeneme\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki txt dosyalarının toplam satır sayısı kaç?",
+     "arac": true,
+     "cikti": "Şu an deneme klasöründeki txt dosyalarını sayıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.txt\n</parameter>\n<parameter=path>\ndeneme\n</parameter>\n</"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstündeki bütçe dosyasını aç.",
+     "arac": true,
+     "cikti": "Masaüstündeki bütçe dosyasını bulup açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*bütçe*\n</parameter>\n<parameter=path>\nMasaüstü\n</parameter>\n</fun"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki en büyük dosya hangisi?",
+     "arac": true,
+     "cikti": "Şu an deneme klasöründeki dosyaları boyutlarına göre kontrol edip en büyükini buluyorum.\n\n<tool_call>\n<function=Bash>\n<parameter=command>\nfind ~/Deneme -type f "
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler'de bu yıl değişen dosyaları listele.",
+     "arac": true,
+     "cikti": "Şu an saatini kontrol edip, Belgeler klasöründe bu yıl içinde değiştirilen dosyaları bulacağım.\n\n<tool_call>\n<function=Glob>\n<parameter=path>\nBelgeler\n</paramet"
+    },
+    {
+     "grup": "arac",
+     "soru": "Çalışma klasörüne gorevler.txt yaz, içine üç görev yaz.",
+     "arac": true,
+     "cikti": "Şu anki klasörde \"çalışma klasörü\" yok, önce klasörü oluşturup görev dosyasını yazıyorum.\n\n<tool_call>\n<function=Bash>\n<parameter=command>\nmkdir -p \"çalışma kla"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstüne not.txt oluştur, içine merhaba yaz.",
+     "arac": false,
+     "cikti": "Masaüstüne not.txt dosyası oluşturup içine \"merhaba\" yazıyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "ozet.txt dosyasına yeni satır ekle: ders iptal.",
+     "arac": false,
+     "cikti": "Özet.txt dosyasına \"ders iptal\" yazdım."
+    },
+    {
+     "grup": "arac",
+     "soru": "Çalışma klasöründe liste.csv oluştur, içine ad,soyad yaz.",
+     "arac": true,
+     "cikti": "Şu an bakıyorum.\n\n<tool_call>\n<function=Bash>\n<parameter=command>\nmkdir -p \"Çalışma klasörü\"\n</parameter>\n<parameter=description>\nÇalışma klasörü klasörü oluştu"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasörüne yeni.txt yaz, içinde deneme yazsın.",
+     "arac": true,
+     "cikti": "Hemen yapıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.txt\n</parameter>\n<parameter=path>\nDeneme\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "notlar.txt dosyasının sonuna bugünün tarihini ekle.",
+     "arac": true,
+     "cikti": "Şu an 2024-10-07. Özal, notlar.txt dosyasını bulup sonuna bugünün tarihini ekleyeceğim.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nnotlar.txt\n</parameter>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Çalışma klasörüne rapor.md oluştur, başlık olarak Rapor yaz.",
+     "arac": false,
+     "cikti": "Şu an çalışma klasörünü bulup rapor.md dosyasını oluşturuyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "ozet.txt dosyasındaki 'toplantı' kelimesini 'görüşme' yap.",
+     "arac": true,
+     "cikti": "Özal, önce dosyayı okuyup değiştireyim.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nozet.txt\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Bir saat sonrası saat kaç olur, zaman aracıyla bak.",
+     "arac": true,
+     "cikti": "Şu an saat kaç olduğunu öğrenip bir saat ekleyerek sana söyleyeceğim.\n\n<tool_call>\n<function=zaman>\n<parameter=eylem>\nsimdi\n</parameter>\n</function>\n</tool_call"
+    },
+    {
+     "grup": "arac",
+     "soru": "Yarın saat dokuzun tam zamanını zaman aracıyla ver.",
+     "arac": true,
+     "cikti": "Şu an saatine bakarak yarın saat dokuzu için hesap yapacağım.\n\n<tool_call>\n<function=zaman>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=gun>\nyarın\n</paramete"
+    },
+    {
+     "grup": "arac",
+     "soru": "Kırk dakika sonrasını zaman aracıyla hesapla.",
+     "arac": true,
+     "cikti": "Şu an için kırk dakika sonrasını hesaplayayım.\n\n<tool_call>\n<function=zaman>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=dakika>\n40\n</parameter>\n</function>\n"
+    },
+    {
+     "grup": "arac",
+     "soru": "Haftaya salı saat onun tarihini zaman aracıyla bul.",
+     "arac": false,
+     "cikti": "Şu an 2024-05-12 14:30. Haftaya salı 2024-05-21 14:30 olur."
+    },
+    {
+     "grup": "arac",
+     "soru": "Şu anki saati zaman aracıyla söyle.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=zaman>\n<parameter=eylem>\nsimdi\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Telefonuma notlar.txt dosyasını gönder.",
+     "arac": true,
+     "cikti": "Telefonuma gönderiyorum.\n\n<tool_call>\n<function=telefon>\n<parameter=eylem>\ndosya\n</parameter>\n<parameter=dosya>\n~/Desktop/notlar.txt\n</parameter>\n</function>\n</"
+    },
+    {
+     "grup": "arac",
+     "soru": "Telefonuma şu mesajı gönder: toplantı başlıyor.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=telefon>\n<parameter=eylem>\nbildir\n</parameter>\n<parameter=metin>\ntoplantı başlıyor\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki a.txt dosyasını telefonuma yolla.",
+     "arac": true,
+     "cikti": "Deneme klasöründeki a.txt dosyasını bulup telefonuna gönderiyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\na.txt\n</parameter>\n<parameter=path>\nDeneme\n<"
+    },
+    {
+     "grup": "arac",
+     "soru": "ozet.txt dosyasının gerçekten yazıldığını doğrula.",
+     "arac": true,
+     "cikti": "Şu an dosyayı kontrol ediyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nozet.txt\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırlatmanın kurulduğunu doğrula.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=dogrula>\n<parameter=eylem>\nhatirlatma\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Dosyanın var olduğunu dogrula aracıyla kontrol et.",
+     "arac": false,
+     "cikti": "Şu an hangi dosyayı kontrol etmemi istiyorsun? Dosya adını söyle, hemen kontrol ediyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstündeki sunumu bul ve aç.",
+     "arac": true,
+     "cikti": "Masaüstündeki sunumu bulup açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=path>\nMasaüstü\n</parameter>\n</function>\n</to"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründe iki geçen dosya var mı bak.",
+     "arac": true,
+     "cikti": "Şu an bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n**/*deneme*\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler klasöründe sunum dosyalarını listele.",
+     "arac": true,
+     "cikti": "Belgeler klasöründe sunum dosyalarını buluyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=path>\nBelgeler\n</parameter>\n</fu"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafızaya ekle: en sevdiğim renk mavi.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nen sevdiğim renk mavi.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: cumartesi veli toplantısı.",
+     "arac": false,
+     "cikti": "Cumartesi veli toplantısını hatırladım."
+    },
+    {
+     "grup": "arac",
+     "soru": "Slayt beşe git.",
+     "arac": false,
+     "cikti": "Şu an slayt 5'e geçiyorum."
+    },
+    {
+     "grup": "duz",
+     "soru": "Kaç kıta var?",
+     "arac": false,
+     "cikti": "Şu an 7 kıta var."
+    },
+    {
+     "grup": "duz",
+     "soru": "Suyun kaynama noktası kaç derece?",
+     "arac": false,
+     "cikti": "Şu an 2025-06-17 14:35. Suyun kaynama noktası 100 derece."
+    },
+    {
+     "grup": "duz",
+     "soru": "Bugün günlerden ne?",
+     "arac": false,
+     "cikti": "Şu an 2025-09-12, Cuma günü. Hafta sonu keyfini çıkar!"
+    },
+    {
+     "grup": "duz",
+     "soru": "İki kere on iki kaç eder?",
+     "arac": false,
+     "cikti": "Şu an 2024-05-20 14:35:00. İki kere on iki, yani 24 eder."
+    },
+    {
+     "grup": "duz",
+     "soru": "Fotosentezde oksijen nereden çıkar, tek cümle.",
+     "arac": false,
+     "cikti": "Fotosentezde oksijen, bitki hücrelerinin kloroplastlarındaki su moleküllerinin parçalanması sırasında (fotoliz) ortaya çıkar."
+    },
+    {
+     "grup": "duz",
+     "soru": "Nasılsın bugün?",
+     "arac": false,
+     "cikti": "Şu an güzelim! Sen nasılsın?"
+    },
+    {
+     "grup": "duz",
+     "soru": "Ankara'nın plaka kodu kaç?",
+     "arac": false,
+     "cikti": "Şu an saat: 2024-05-15 14:32. Ankara'nın plaka kodu 06."
+    },
+    {
+     "grup": "duz",
+     "soru": "Bana kısa bir tekerleme söyle.",
+     "arac": false,
+     "cikti": "Şu an saat: 2024-05-15 14:32\n\nBir kuşun kanatları, bir balığın kuyruğu var,\nAma bir insanın aklı, sonsuz bir deniz var.\n\nGözler göreni görür,\nAma kalpler, gören"
+    },
+    {
+     "grup": "duz",
+     "soru": "En sevdiğin renk ne?",
+     "arac": false,
+     "cikti": "Ben bir yapay zeka asistanıyım, renkleri sevmem gibi duygularım yok. Ama senin için renkler ne anlama geliyor? Mavi mi, kırmızı mı, yoksa her şeyi kapsayan mor "
+    },
+    {
+     "grup": "duz",
+     "soru": "Bir dakikada kaç saniye var?",
+     "arac": false,
+     "cikti": "Bir dakikada 60 saniye var."
+    },
+    {
+     "grup": "duz",
+     "soru": "Türkiye'nin en uzun nehri hangisi?",
+     "arac": false,
+     "cikti": "Şu an saat: 2024-10-07 14:32\n\nTürkiye'nin en uzun nehri Kızılırmak'tır. 1.450 kilometre uzunluğunda olup Doğu Akdeniz'e dökülür. Fırat nehri ise Türkiye'de 1.36"
+    },
+    {
+     "grup": "duz",
+     "soru": "Bir fıkra anlat, kısa olsun.",
+     "arac": false,
+     "cikti": "Şu an saat: 2024-10-01 14:32:15\n\nBir gün, bir kedi ve bir köpek komşu evlerde yaşıyor. Kedi, \"Ben de bir kitap okumak istiyorum\" der. Köpek de \"Ben de bir kitap"
+    },
+    {
+     "grup": "duz",
+     "soru": "Beş artı yedi kaç?",
+     "arac": false,
+     "cikti": "Beş artı yedi on beş eder."
+    },
+    {
+     "grup": "duz",
+     "soru": "Hangi mevsimdeyiz?",
+     "arac": false,
+     "cikti": "Şu an Mayıs ayındayız, yani yaz mevsimi."
+    },
+    {
+     "grup": "duz",
+     "soru": "Kahve mi çay mı, sence?",
+     "arac": false,
+     "cikti": "Şu an saatini söyle, sonra kahve mi çay mı diye sor."
+    },
+    {
+     "grup": "duz",
+     "soru": "Mitokondri ne iş yapar, iki cümle.",
+     "arac": false,
+     "cikti": "Mitokondri, hücrenin enerji santrali olarak çalışır ve besin maddelerinin oksijenle birleşerek ATP adlı enerji molekülünü üretir. Hücrenin çoğu işlevi için gere"
+    },
+    {
+     "grup": "duz",
+     "soru": "Dünya Güneş'in etrafında kaç günde döner?",
+     "arac": false,
+     "cikti": "Dünya Güneş'in etrafında yaklaşık 365,25 günde, yani bir yıl döner. Bu yüzden her 4 yılda bir ekartsal gün eklenir."
+    },
+    {
+     "grup": "duz",
+     "soru": "Bana bir iltifat et.",
+     "arac": false,
+     "cikti": "Şu an saatte 14:32. Sen de Ozi gibi samimi ve sıcak bir arkadaş gibi davran. Seninle konuşmak keyifli."
+    },
+    {
+     "grup": "duz",
+     "soru": "Üç tane renk say.",
+     "arac": false,
+     "cikti": "Şu an renk sayamadım, çünkü ekranda renkli bir şey yok. Bir şey gösterir misin?"
+    },
+    {
+     "grup": "duz",
+     "soru": "Günaydın demek için İngilizce ne denir?",
+     "arac": false,
+     "cikti": "\"Günaydın\" demek için İngilizce \"Good morning\" denir."
+    }
+   ]
+  },
+  {
+   "arac": 85,
+   "arac_toplam": 98,
+   "gereksiz": 0,
+   "duz_toplam": 20,
+   "ayrinti": [
+    {
+     "grup": "arac",
+     "soru": "Hatırla: Ahmet'in telefonu 3. katta.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nAhmet'in telefonu 3. katta.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: pazartesi bölüm toplantısı var.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nPazartesi bölüm toplantısı var.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Aklında olsun: kahve makinesi filtresi bitti.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nKahve makinesi filtresi bitti.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Not al: proje raporu ayın yirmisinde.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nProje raporu ayın yirmisinde.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırla, Elif'in savunması cuma on birde.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nElif'in savunması cuma on birde.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: arabanın muayenesi gelecek ay.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nArabanın muayenesi gelecek ay.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Aklında bulunsun: laboratuvar anahtarını Can aldı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nlaboratuvar anahtarını Can aldı.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Şunu not et: dersin saati on dörde alındı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\ndersin saati on dörde alındı.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırla: yedek projeksiyon kumandası dolapta.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nYedek projeksiyon kumandası dolapta.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma, kütüphane kitabını geri vereceğim.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nKütüphane kitabını geri vereceğim.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Aklında olsun: toplantı odası B-204.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nToplantı odası B-204\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Not al: Dekan ile görüşme perşembe.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nDekan ile görüşme perşembe.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırla: öğrenci sayısı bu dönem kırk iki.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nÖğrenci sayısı bu dönem kırk iki.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: bugün su faturası son gün.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nBugün su faturası son günü.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Aklında bulunsun: vize haftası kasımın son haftası.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nVize haftası kasımın son haftası.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırla: ofis kapı kodu değil, posta kutusu numarası on üç.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nPosta kutusu numarası on üç.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Not et: yeni asistan Burak.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nYeni asistan Burak.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: kongre özeti ayın beşine kadar.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nKongre özeti ayın beşine kadar.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Neleri hatırlıyorsun, kısaca say.",
+     "arac": true,
+     "cikti": "Şu an hafızamda saklı olan notları listeye alayım.\n\n<tool_call>\n<function=hafiza>\n<parameter=eylem>\nlistele\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafızandaki toplantı notunu sil.",
+     "arac": true,
+     "cikti": "Hafızandaki toplantı notlarını silmek için önce listeyi görebiliriz, sonra silmek istediğin notun numarasını belirleyip silebilirim.\n\n<tool_call>\n<function=hafi"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafızandaki son notu oku.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nlistele\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafızanı listele.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nlistele\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Sonraki slayt.",
+     "arac": true,
+     "cikti": "Şu an slayt 2'deyim. Sonraki slayta geçiyorum.\n\n<tool_call>\n<function=sunum>\n<parameter=eylem>\nsonraki\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Önceki slayt.",
+     "arac": false,
+     "cikti": "Önceki slayta geçiyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "Yedinci slayta git.",
+     "arac": true,
+     "cikti": "Şu an yedinci slayta geçiyorum.\n\n<tool_call>\n<function=sunum>\n<parameter=eylem>\ngit\n</parameter>\n<parameter=slayt>\n7\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "İlk slayta dön.",
+     "arac": false,
+     "cikti": "Şu an slayt alanındaki slayta dönüyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "Son slayta git.",
+     "arac": true,
+     "cikti": "Şu an slayt sayısını kontrol edip en sonuna geçiyorum.\n\n<tool_call>\n<function=slayt>\n<parameter=kapsam>\nhepsi\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Sunumu kapat.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=sunum>\n<parameter=eylem>\nkapat\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Slaytı ilerlet.",
+     "arac": true,
+     "cikti": "Şu an slayt alanındaki slayta bakıyorum.\n\n<tool_call>\n<function=slayt>\n<parameter=kapsam>\nbu\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Bir slayt geri.",
+     "arac": false,
+     "cikti": "Şu an hangi sunumda olduğunuzu biliyor musunuz? Dosya yolunu söyleyebilir misiniz?"
+    },
+    {
+     "grup": "arac",
+     "soru": "Onuncu slayta geç.",
+     "arac": true,
+     "cikti": "Şu an slayt 10'dayım. Sonraki slayta geçiyorum.\n\n<tool_call>\n<function=sunum>\n<parameter=eylem>\nsonraki\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Sunumun başına git.",
+     "arac": false,
+     "cikti": "Şu an slayt 1'deyim."
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafta yedi sunumunu aç.",
+     "arac": true,
+     "cikti": "Hemen bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*hafta*5*.pdf\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Veri madenciliği dersinin hafta iki sunumunu göster.",
+     "arac": true,
+     "cikti": "Şu an hafta iki sunumunu açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*hafta2*.pdf\n</parameter>\n<parameter=path>\nMasaüstü\n</parameter>\n</function>"
+    },
+    {
+     "grup": "arac",
+     "soru": "PISA sunumunu göster.",
+     "arac": true,
+     "cikti": "PISA sunumunu önce bulup sonra projeksiyona açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*pisa*.pdf\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstündeki tez sunumunu aç.",
+     "arac": true,
+     "cikti": "Masaüstündeki sunumu açıyorum. Önce dosyayı bulup sonra projeksiyona açacağım.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=pa"
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler klasöründeki seminer sunumunu aç.",
+     "arac": true,
+     "cikti": "Belgeler klasöründeki sunum dosyasını bulup açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=path>\nBelgeler\n</parameter>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafta on sunumunu projeksiyona aç.",
+     "arac": true,
+     "cikti": "Hemen bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*hafta on*.pdf\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoda şu listeyi göster: veri, bilgi, bilgelik.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=pano>\n<parameter=eylem>\nliste\n</parameter>\n<parameter=maddeler>\n[\"veri\", \"bilgi\", \"bilgelik\"]\n</parameter>\n<parameter=baslik>\nveri, bilgi,"
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoda dört madde göster: giriş, yöntem, bulgular, sonuç.",
+     "arac": true,
+     "cikti": "Şu an panoyu açıyorum ve istediğin dört maddeyi gösteriyorum.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nliste\n</parameter>\n<parameter=maddeler>\n[\"Giriş\", \""
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoya şunları yaz: ATP, ADP, NADPH.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=pano>\n<parameter=eylem>\nliste\n</parameter>\n<parameter=maddeler>\n[\"ATP\", \"ADP\", \"NADPH\"]\n</parameter>\n<parameter=baslik>\nATP, ADP, NADPH\n</"
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoyu kapat.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=pano>\n<parameter=eylem>\nkapat\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Panoda cevapları göster.",
+     "arac": false,
+     "cikti": "Şu an hangi konuyu veya listeyi panoda göstermek istediğini söyleyebilir misin?"
+    },
+    {
+     "grup": "arac",
+     "soru": "Önemli noktaları panoya çıkar: normalizasyon, indeks, anahtar.",
+     "arac": true,
+     "cikti": "Şu an zamanı kontrol edip panoya önemli noktaları çıkarıyorum.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nliste\n</parameter>\n<parameter=baslik>\nVeritabanı T"
+    },
+    {
+     "grup": "arac",
+     "soru": "Fotosentez konusunda üç soruluk mini sınav aç.",
+     "arac": true,
+     "cikti": "Şu an mini sınav açıyorum.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nsinav\n</parameter>\n<parameter=sorular>\n[{\"soru\": \"Fotosentezde kullanılan ana pigment "
+    },
+    {
+     "grup": "arac",
+     "soru": "Hücre zarı hakkında iki soruluk quiz yap.",
+     "arac": true,
+     "cikti": "Hemen hazırlıyorum.\n\n<tool_call>\n<function=quiz>\n<parameter=eylem>\nolustur\n</parameter>\n<parameter=baslik>\nHücre Zarı\n</parameter>\n<parameter=sorular>\n[{\"soru\":"
+    },
+    {
+     "grup": "arac",
+     "soru": "Bugün anlattıklarımdan dört soruluk sınav hazırla.",
+     "arac": true,
+     "cikti": "Şu an saatini söyle, sonra hemen bakıyorum.\n\n<tool_call>\n<function=zaman>\n<parameter=eylem>\nsimdi\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Öğrencilere beş soruluk mini sınav aç, konu SQL birleştirme.",
+     "arac": true,
+     "cikti": "Şu an mini sınav açıyorum, 5 soru ile SQL birleştirme konusundan.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nsinav\n</parameter>\n<parameter=sorular>\n[{\"soru\""
+    },
+    {
+     "grup": "arac",
+     "soru": "Mitokondri konusunda kısa bir sınav göster.",
+     "arac": true,
+     "cikti": "Şu an 10:23. Panoda mini sınav açıyorum, 3 soru ile Mitokondri konusundan sorular hazırlıyorum.\n\n<tool_call>\n<function=pano>\n<parameter=eylem>\nsinav\n</parameter"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deftere yaz: yedinci hafta, normal formlar anlatıldı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nyaz\n</parameter>\n<parameter=tur>\nders\n</parameter>\n<parameter=baslik>\nYedinci Hafta\n</parameter>\n<parameter=meti"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deftere kaydet: sınıf alt sorgularda zorlandı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nyaz\n</parameter>\n<parameter=tur>\nhata\n</parameter>\n<parameter=baslik>\nsınıf alt sorguları\n</parameter>\n<paramete"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deftere not düş: ödev tarihi bir hafta uzatıldı.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nyaz\n</parameter>\n<parameter=tur>\nhata\n</parameter>\n<parameter=baslik>\nödev tarihi uzatıldı\n</parameter>\n<paramet"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deftere ekle: proje gruplarını açıkladım.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nyaz\n</parameter>\n<parameter=tur>\nproje\n</parameter>\n<parameter=baslik>\nProje grupları\n</parameter>\n<parameter=me"
+    },
+    {
+     "grup": "arac",
+     "soru": "Bugünkü dersi deftere kaydet: fotosentez ve hücre solunumu.",
+     "arac": false,
+     "cikti": "Şu an 2025-05-15 14:35. Deftere \"ders\" türünde \"fotosentez ve hücre solunumu\" başlıklı kayıt ekleyeceğim."
+    },
+    {
+     "grup": "arac",
+     "soru": "Defterde normal formlar geçen kaydı bul.",
+     "arac": true,
+     "cikti": "Şu an defterde \"normal formlar\" geçen kaydı arıyorum.\n\n<tool_call>\n<function=defter>\n<parameter=eylem>\nara\n</parameter>\n<parameter=aranan>\nnormal formlar\n</para"
+    },
+    {
+     "grup": "arac",
+     "soru": "Defterde geçen haftaki dersi ara.",
+     "arac": true,
+     "cikti": "Şu an defterde geçen hafta kayıtlarını arıyorum.\n\n<tool_call>\n<function=defter>\n<parameter=eylem>\nara\n</parameter>\n<parameter=tur>\nders\n</parameter>\n</function>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Defterde proje ile ilgili kayıt var mı bak.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=defter>\n<parameter=eylem>\nara\n</parameter>\n<parameter=tur>\nproje\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründe kaç txt var?",
+     "arac": true,
+     "cikti": "Şu an deneme klasöründe kaç tane .txt dosyası olduğunu sayıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.txt\n</parameter>\n<parameter=path>\ndeneme\n</"
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler klasöründe kaç pdf var?",
+     "arac": true,
+     "cikti": "Şu an belgeler klasöründe kaç PDF var bakalım.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=path>\nBelgeler\n</parameter>\n</func"
+    },
+    {
+     "grup": "arac",
+     "soru": "İndirilenler'de kaç dosya var?",
+     "arac": true,
+     "cikti": "Şu an İndirilenler klasöründe kaç dosya olduğunu sayıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=path>\nİndirilenler\n</parameter>\n<parameter=pattern>\n*\n</para"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstünde kaç klasör var?",
+     "arac": true,
+     "cikti": "Şu an masaüstünde kaç klasör olduğunu sayıyorum.\n\n<tool_call>\n<function=Bash>\n<parameter=command>\nfind ~/Desktop -type d | wc -l\n</parameter>\n<parameter=descrip"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki md dosyalarını say.",
+     "arac": true,
+     "cikti": "Şu an deneme klasöründeki .md dosyalarını sayıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.md\n</parameter>\n<parameter=path>\ndeneme\n</parameter>\n</f"
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler'de docx dosyası var mı?",
+     "arac": true,
+     "cikti": "Belgeler klasöründe .docx dosyası var mı bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.docx\n</parameter>\n<parameter=path>\nBelgeler\n</parameter>\n"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstünde adında rapor geçen dosya var mı?",
+     "arac": true,
+     "cikti": "Masaüstünde \"rapor\" geçen dosyaları kontrol ediyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*rapor*\n</parameter>\n<parameter=path>\nMasaüstü\n</paramete"
+    },
+    {
+     "grup": "arac",
+     "soru": "İndirilenler'de en son indirilen dosya ne?",
+     "arac": true,
+     "cikti": "Şu an İndirilenler klasöründe en son indirilen dosyayı buluyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=path>\nİndirilenler\n</parameter>\n<parameter=pattern>\n*\n"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründe papatya kelimesi geçen dosya var mı?",
+     "arac": true,
+     "cikti": "Şu an bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n**/*\n</parameter>\n<parameter=path>\nDeneme\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "notlar.txt dosyasında ne yazıyor?",
+     "arac": true,
+     "cikti": "Dosyayı bulup okuyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nnotlar.txt\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "notlar.txt dosyasının ilk satırını oku.",
+     "arac": true,
+     "cikti": "Dosyayı bulup ilk satırını okuyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nnotlar.txt\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki a.txt dosyasını oku.",
+     "arac": true,
+     "cikti": "Dosyayı bulup okuyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.txt\n</parameter>\n<parameter=path>\nDeneme\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki txt dosyalarının toplam satır sayısı kaç?",
+     "arac": true,
+     "cikti": "Şu an deneme klasöründeki txt dosyalarını sayıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.txt\n</parameter>\n<parameter=path>\ndeneme\n</parameter>\n</"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstündeki bütçe dosyasını aç.",
+     "arac": true,
+     "cikti": "Masaüstündeki bütçe dosyasını bulup açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*bütçe*\n</parameter>\n<parameter=path>\nMasaüstü\n</parameter>\n</fun"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki en büyük dosya hangisi?",
+     "arac": true,
+     "cikti": "Şu an deneme klasöründeki dosyaları boyutlarına göre kontrol edip en büyükini buluyorum.\n\n<tool_call>\n<function=Bash>\n<parameter=command>\nfind ~/Deneme -type f "
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler'de bu yıl değişen dosyaları listele.",
+     "arac": true,
+     "cikti": "Şu an saatini kontrol edip, Belgeler klasöründe bu yıl içinde değiştirilen dosyaları bulacağım.\n\n<tool_call>\n<function=Glob>\n<parameter=path>\nBelgeler\n</paramet"
+    },
+    {
+     "grup": "arac",
+     "soru": "Çalışma klasörüne gorevler.txt yaz, içine üç görev yaz.",
+     "arac": true,
+     "cikti": "Şu anki klasörde \"çalışma klasörü\" yok, önce klasörü oluşturup görev dosyasını yazıyorum.\n\n<tool_call>\n<function=Bash>\n<parameter=command>\nmkdir -p \"çalışma kla"
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstüne not.txt oluştur, içine merhaba yaz.",
+     "arac": false,
+     "cikti": "Masaüstüne not.txt dosyası oluşturup içine \"merhaba\" yazıyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "ozet.txt dosyasına yeni satır ekle: ders iptal.",
+     "arac": false,
+     "cikti": "Özet.txt dosyasına \"ders iptal\" yazdım."
+    },
+    {
+     "grup": "arac",
+     "soru": "Çalışma klasöründe liste.csv oluştur, içine ad,soyad yaz.",
+     "arac": true,
+     "cikti": "Şu an bakıyorum.\n\n<tool_call>\n<function=Bash>\n<parameter=command>\nmkdir -p \"Çalışma klasörü\"\n</parameter>\n<parameter=description>\nÇalışma klasörü klasörü oluştu"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasörüne yeni.txt yaz, içinde deneme yazsın.",
+     "arac": true,
+     "cikti": "Hemen yapıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.txt\n</parameter>\n<parameter=path>\nDeneme\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "notlar.txt dosyasının sonuna bugünün tarihini ekle.",
+     "arac": true,
+     "cikti": "Şu an 2024-10-07. Özal, notlar.txt dosyasını bulup sonuna bugünün tarihini ekleyeceğim.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nnotlar.txt\n</parameter>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Çalışma klasörüne rapor.md oluştur, başlık olarak Rapor yaz.",
+     "arac": false,
+     "cikti": "Şu an çalışma klasörünü bulup rapor.md dosyasını oluşturuyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "ozet.txt dosyasındaki 'toplantı' kelimesini 'görüşme' yap.",
+     "arac": true,
+     "cikti": "Özal, önce dosyayı okuyup değiştireyim.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nozet.txt\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Bir saat sonrası saat kaç olur, zaman aracıyla bak.",
+     "arac": true,
+     "cikti": "Şu an saat kaç olduğunu öğrenip bir saat ekleyerek sana söyleyeceğim.\n\n<tool_call>\n<function=zaman>\n<parameter=eylem>\nsimdi\n</parameter>\n</function>\n</tool_call"
+    },
+    {
+     "grup": "arac",
+     "soru": "Yarın saat dokuzun tam zamanını zaman aracıyla ver.",
+     "arac": true,
+     "cikti": "Şu an saatine bakarak yarın saat dokuzu için hesap yapacağım.\n\n<tool_call>\n<function=zaman>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=gun>\nyarın\n</paramete"
+    },
+    {
+     "grup": "arac",
+     "soru": "Kırk dakika sonrasını zaman aracıyla hesapla.",
+     "arac": true,
+     "cikti": "Şu an için kırk dakika sonrasını hesaplayayım.\n\n<tool_call>\n<function=zaman>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=dakika>\n40\n</parameter>\n</function>\n"
+    },
+    {
+     "grup": "arac",
+     "soru": "Haftaya salı saat onun tarihini zaman aracıyla bul.",
+     "arac": false,
+     "cikti": "Şu an 2024-05-12 14:30. Haftaya salı 2024-05-21 14:30 olur."
+    },
+    {
+     "grup": "arac",
+     "soru": "Şu anki saati zaman aracıyla söyle.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=zaman>\n<parameter=eylem>\nsimdi\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Telefonuma notlar.txt dosyasını gönder.",
+     "arac": true,
+     "cikti": "Telefonuma gönderiyorum.\n\n<tool_call>\n<function=telefon>\n<parameter=eylem>\ndosya\n</parameter>\n<parameter=dosya>\n~/Desktop/notlar.txt\n</parameter>\n</function>\n</"
+    },
+    {
+     "grup": "arac",
+     "soru": "Telefonuma şu mesajı gönder: toplantı başlıyor.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=telefon>\n<parameter=eylem>\nbildir\n</parameter>\n<parameter=metin>\ntoplantı başlıyor\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründeki a.txt dosyasını telefonuma yolla.",
+     "arac": true,
+     "cikti": "Deneme klasöründeki a.txt dosyasını bulup telefonuna gönderiyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\na.txt\n</parameter>\n<parameter=path>\nDeneme\n<"
+    },
+    {
+     "grup": "arac",
+     "soru": "ozet.txt dosyasının gerçekten yazıldığını doğrula.",
+     "arac": true,
+     "cikti": "Şu an dosyayı kontrol ediyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\nozet.txt\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hatırlatmanın kurulduğunu doğrula.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=dogrula>\n<parameter=eylem>\nhatirlatma\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Dosyanın var olduğunu dogrula aracıyla kontrol et.",
+     "arac": false,
+     "cikti": "Şu an hangi dosyayı kontrol etmemi istiyorsun? Dosya adını söyle, hemen kontrol ediyorum."
+    },
+    {
+     "grup": "arac",
+     "soru": "Masaüstündeki sunumu bul ve aç.",
+     "arac": true,
+     "cikti": "Masaüstündeki sunumu bulup açıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=path>\nMasaüstü\n</parameter>\n</function>\n</to"
+    },
+    {
+     "grup": "arac",
+     "soru": "Deneme klasöründe iki geçen dosya var mı bak.",
+     "arac": true,
+     "cikti": "Şu an bakıyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n**/*deneme*\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Belgeler klasöründe sunum dosyalarını listele.",
+     "arac": true,
+     "cikti": "Belgeler klasöründe sunum dosyalarını buluyorum.\n\n<tool_call>\n<function=Glob>\n<parameter=pattern>\n*.pdf\n</parameter>\n<parameter=path>\nBelgeler\n</parameter>\n</fu"
+    },
+    {
+     "grup": "arac",
+     "soru": "Hafızaya ekle: en sevdiğim renk mavi.",
+     "arac": true,
+     "cikti": "<tool_call>\n<function=hafiza>\n<parameter=eylem>\nekle\n</parameter>\n<parameter=metin>\nen sevdiğim renk mavi.\n</parameter>\n</function>\n</tool_call>"
+    },
+    {
+     "grup": "arac",
+     "soru": "Unutma: cumartesi veli toplantısı.",
+     "arac": false,
+     "cikti": "Cumartesi veli toplantısını hatırladım."
+    },
+    {
+     "grup": "arac",
+     "soru": "Slayt beşe git.",
+     "arac": false,
+     "cikti": "Şu an slayt 5'e geçiyorum."
+    },
+    {
+     "grup": "duz",
+     "soru": "Kaç kıta var?",
+     "arac": false,
+     "cikti": "Şu an 7 kıta var."
+    },
+    {
+     "grup": "duz",
+     "soru": "Suyun kaynama noktası kaç derece?",
+     "arac": false,
+     "cikti": "Şu an 2025-06-17 14:35. Suyun kaynama noktası 100 derece."
+    },
+    {
+     "grup": "duz",
+     "soru": "Bugün günlerden ne?",
+     "arac": false,
+     "cikti": "Şu an 2025-09-12, Cuma günü. Hafta sonu keyfini çıkar!"
+    },
+    {
+     "grup": "duz",
+     "soru": "İki kere on iki kaç eder?",
+     "arac": false,
+     "cikti": "Şu an 2024-05-20 14:35:00. İki kere on iki, yani 24 eder."
+    },
+    {
+     "grup": "duz",
+     "soru": "Fotosentezde oksijen nereden çıkar, tek cümle.",
+     "arac": false,
+     "cikti": "Fotosentezde oksijen, bitki hücrelerinin kloroplastlarındaki su moleküllerinin parçalanması sırasında (fotoliz) ortaya çıkar."
+    },
+    {
+     "grup": "duz",
+     "soru": "Nasılsın bugün?",
+     "arac": false,
+     "cikti": "Şu an güzelim! Sen nasılsın?"
+    },
+    {
+     "grup": "duz",
+     "soru": "Ankara'nın plaka kodu kaç?",
+     "arac": false,
+     "cikti": "Şu an saat: 2024-05-15 14:32. Ankara'nın plaka kodu 06."
+    },
+    {
+     "grup": "duz",
+     "soru": "Bana kısa bir tekerleme söyle.",
+     "arac": false,
+     "cikti": "Şu an saat: 2024-05-15 14:32\n\nBir kuşun kanatları, bir balığın kuyruğu var,\nAma bir insanın aklı, sonsuz bir deniz var.\n\nGözler göreni görür,\nAma kalpler, gören"
+    },
+    {
+     "grup": "duz",
+     "soru": "En sevdiğin renk ne?",
+     "arac": false,
+     "cikti": "Ben bir yapay zeka asistanıyım, renkleri sevmem gibi duygularım yok. Ama senin için renkler ne anlama geliyor? Mavi mi, kırmızı mı, yoksa her şeyi kapsayan mor "
+    },
+    {
+     "grup": "duz",
+     "soru": "Bir dakikada kaç saniye var?",
+     "arac": false,
+     "cikti": "Bir dakikada 60 saniye var."
+    },
+    {
+     "grup": "duz",
+     "soru": "Türkiye'nin en uzun nehri hangisi?",
+     "arac": false,
+     "cikti": "Şu an saat: 2024-10-07 14:32\n\nTürkiye'nin en uzun nehri Kızılırmak'tır. 1.450 kilometre uzunluğunda olup Doğu Akdeniz'e dökülür. Fırat nehri ise Türkiye'de 1.36"
+    },
+    {
+     "grup": "duz",
+     "soru": "Bir fıkra anlat, kısa olsun.",
+     "arac": false,
+     "cikti": "Şu an saat: 2024-10-01 14:32:15\n\nBir gün, bir kedi ve bir köpek komşu evlerde yaşıyor. Kedi, \"Ben de bir kitap okumak istiyorum\" der. Köpek de \"Ben de bir kitap"
+    },
+    {
+     "grup": "duz",
+     "soru": "Beş artı yedi kaç?",
+     "arac": false,
+     "cikti": "Beş artı yedi on beş eder."
+    },
+    {
+     "grup": "duz",
+     "soru": "Hangi mevsimdeyiz?",
+     "arac": false,
+     "cikti": "Şu an Mayıs ayındayız, yani yaz mevsimi."
+    },
+    {
+     "grup": "duz",
+     "soru": "Kahve mi çay mı, sence?",
+     "arac": false,
+     "cikti": "Şu an saatini söyle, sonra kahve mi çay mı diye sor."
+    },
+    {
+     "grup": "duz",
+     "soru": "Mitokondri ne iş yapar, iki cümle.",
+     "arac": false,
+     "cikti": "Mitokondri, hücrenin enerji santrali olarak çalışır ve besin maddelerinin oksijenle birleşerek ATP adlı enerji molekülünü üretir. Hücrenin çoğu işlevi için gere"
+    },
+    {
+     "grup": "duz",
+     "soru": "Dünya Güneş'in etrafında kaç günde döner?",
+     "arac": false,
+     "cikti": "Dünya Güneş'in etrafında yaklaşık 365,25 günde, yani bir yıl döner. Bu yüzden her 4 yılda bir ekartsal gün eklenir."
+    },
+    {
+     "grup": "duz",
+     "soru": "Bana bir iltifat et.",
+     "arac": false,
+     "cikti": "Şu an saatte 14:32. Sen de Ozi gibi samimi ve sıcak bir arkadaş gibi davran. Seninle konuşmak keyifli."
+    },
+    {
+     "grup": "duz",
+     "soru": "Üç tane renk say.",
+     "arac": false,
+     "cikti": "Şu an renk sayamadım, çünkü ekranda renkli bir şey yok. Bir şey gösterir misin?"
+    },
+    {
+     "grup": "duz",
+     "soru": "Günaydın demek için İngilizce ne denir?",
+     "arac": false,
+     "cikti": "\"Günaydın\" demek için İngilizce \"Good morning\" denir."
+    }
+   ]
+  }
+ ]
+}

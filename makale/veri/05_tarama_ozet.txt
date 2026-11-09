@@ -1,0 +1,6 @@
+=== a=1.5
+derlenmiş model ema1 (katman [27, 28, 29], a=1.5): araç isteyen 68 istemde 59 araç çağrısı (temel 52); araçsız 8 istemde 0 gereksiz (183 sn)
+  önceki kötü 15 istemin 7'i artık araç çağırıyor; önceki iyi 53 istemin 1'i bozuldu
+=== a=2.0
+derlenmiş model ema1 (katman [27, 28, 29], a=2.0): araç isteyen 68 istemde 59 araç çağrısı (temel 52); araçsız 8 istemde 0 gereksiz (187 sn)
+  önceki kötü 15 istemin 8'i artık araç çağırıyor; önceki iyi 53 istemin 2'i bozuldu
