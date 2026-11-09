@@ -1,0 +1,5 @@
+temel                  regresyon 45/60 (gereksiz araç 0) | büyük sınama araç 84/98, 84/98 | gereksiz 0/20, 0/20
+silme_ema1             regresyon 46/60 (gereksiz araç 0) | büyük sınama araç 85/98, 85/98 | gereksiz 0/20, 0/20
+itme_ema2              regresyon 49/60 (gereksiz araç 1) | büyük sınama araç 96/98, 96/98 | gereksiz 0/20, 0/20
+temel_orneklerle       regresyon 47/60 (gereksiz araç 2) | büyük sınama araç 90/98 | gereksiz 1/20
+bitti
